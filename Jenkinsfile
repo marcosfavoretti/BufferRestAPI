@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Código') {
             steps {
-                git 'https://github.com/marcosfavoretti/BufferRestAPI.git'  // Substitua pela URL do seu repositório
+                git branch: 'main', url: 'https://github.com/marcosfavoretti/BufferRestAPI.git' 
             }
         }
 

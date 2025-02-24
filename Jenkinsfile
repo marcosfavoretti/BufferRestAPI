@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     dir('backend') {
-                        bat 'docker build -t BufferAPI:1.0 ./buffer-fork'
+                        bat 'docker build -t bufferapi:1.0 ./buffer-fork'
                     }
                 }
             }
@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     // Rodar o container do backend
-                    bat 'docker run -d --name BufferAPI -p 3691:3000 BufferAPI'
+                    bat 'docker run -d -p 3691:3000 bufferapi'
                 }
             }
         }

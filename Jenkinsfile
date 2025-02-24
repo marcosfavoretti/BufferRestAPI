@@ -30,9 +30,9 @@ pipeline {
         stage('Build e Deploy Frontend') {
             steps {
                 script {
-                    dir('frontend') {
+                    dir('bufferManual') {
                         // Criar a imagem do frontend (para o XAMPP)
-                        bat 'docker build -t BufferFrontEnd ./bufferManual'
+                        bat 'docker build -t bufferfrontend:1.0 .'
                     }
                 }
             }

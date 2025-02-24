@@ -1,5 +1,5 @@
 # Usando uma imagem base com Node.js para o Angular
-FROM marcosfavo/node23-winsever-2019
+FROM marcosfavo/node23-winsever-2019:1.0
 
 # Defina o diretório de trabalho
 WORKDIR /app

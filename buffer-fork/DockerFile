@@ -1,4 +1,4 @@
-FROM marcosfavo/node23-winsever-2019
+FROM marcosfavo/node23-winsever-2019:1.0
 
 WORKDIR /app
 

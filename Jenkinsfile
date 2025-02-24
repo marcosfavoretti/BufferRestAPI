@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     dir('backend') {
-                        bat 'docker build -t ./buffer-fork .'
+                        bat 'docker build -t BufferAPI:1.0 ./buffer-fork .'
                     }
                 }
             }
@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     // Rodar o container do backend
-                    bat 'docker run -d --name BufferAPI -p 3691:3000 buffer-fork'
+                    bat 'docker run -d --name BufferAPI -p 3691:3000 BufferAPI'
                 }
             }
         }
@@ -32,7 +32,7 @@ pipeline {
                 script {
                     dir('frontend') {
                         // Criar a imagem do frontend (para o XAMPP)
-                        bat 'docker build -t ./bufferManual .'
+                        bat 'docker build -t BufferFrontEnd ./bufferManual'
                     }
                 }
             }

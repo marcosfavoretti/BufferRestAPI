@@ -1,0 +1,21 @@
+# Usando uma imagem base com Node.js para o Angular
+FROM marcosfavo/node23-winsever-2019
+
+# Defina o diretório de trabalho
+WORKDIR /app
+
+# Copiar os arquivos de configuração do Angular
+COPY package.json package-lock.json ./
+
+# Instalar dependências
+RUN npm install
+
+# Copiar o código do frontend
+COPY . .
+
+# Build do projeto Angular para produção
+RUN npm run build -- --prod
+
+# Não precisaremos expor a porta aqui, pois os arquivos serão copiados diretamente para o XAMPP
+# O comando a seguir copia os arquivos de build para a pasta do Apache
+RUN xcopy /E /I /Y C:\\app\\dist\\meu-app C:\\xampp\\htdocs\\meu-app

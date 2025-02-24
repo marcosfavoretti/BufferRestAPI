@@ -1,0 +1,15 @@
+FROM marcosfavo/node23-winsever-2019
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 9192
+
+RUN npm run build
+# Comando para iniciar a aplicação
+CMD ["npm", "run", "start:prod"]

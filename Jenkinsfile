@@ -11,8 +11,8 @@ pipeline {
         stage('Build Backend') {
             steps {
                 script {
-                    dir('backend') {
-                        bat 'docker build -t bufferapi:1.0 ./buffer-fork'
+                    dir('BufferRestAPI/buffer-fork') {
+                        bat 'docker build -t bufferapi:1.0 .'
                     }
                 }
             }

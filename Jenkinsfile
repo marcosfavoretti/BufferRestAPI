@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     dir('backend') {
-                        bat 'docker build -t BufferAPI:1.0 ./buffer-fork .'
+                        bat 'docker build -t BufferAPI:1.0 ./buffer-fork'
                     }
                 }
             }

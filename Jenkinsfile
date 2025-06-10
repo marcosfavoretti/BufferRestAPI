@@ -6,79 +6,79 @@ pipeline {
     }
 
     stages {
-        stage('Clone Repositories') {
+        stage('Clone Repository') {
             steps {
-                script {
-                    dir('APPLICATION') {
-                        checkout([ 
-                            $class: 'GitSCM', 
-                            branches: [[name: '*/main']], 
-                            userRemoteConfigs: [[ 
-                                url: REPO, 
-                                credentialsId: 'github-ssh-key' 
-                            ]]
-                        ])
-                    }
+                // REMOVIDO o 'dir('APPLICATION')'.
+                // Agora o repositório é clonado na raiz do workspace,
+                // que é o comportamento padrão e mais simples.
+                checkout([
+                    $class: 'GitSCM',
+                    branches: [[name: '*/main']],
+                    userRemoteConfigs: [[
+                        url: REPO,
+                        credentialsId: 'github-ssh-key' // Garanta que esta credencial existe
+                    ]]
+                ])
+            }
+        }
+
+        stage('Build Docker Images') {
+            steps {
+                // Os caminhos agora são diretos, sem 'APPLICATION/'
+                dir('buffer-fork') {
+                    sh 'docker build -t bufferapi .'
+                }
+                dir('bufferManual') {
+                    sh 'docker build -t bufferfront .'
                 }
             }
         }
 
-       stage('Build Docker Images') {
+        stage('Run Services with Docker Compose') {
             steps {
                 script {
-                    echo "Construindo a imagem do Back-end..."
-                    // Entra na pasta do back-end e constrói a imagem
-                    dir('./APPLICATION/buffer-fork') { // <-- SUBSTITUA PELO NOME DA SUA PASTA BACK-END
-                        sh 'docker build -t bufferapi .'
-                    }
-
-                    echo "Construindo a imagem do Front-end..."
-                    // Entra na pasta do front-end e constrói a imagem
-                    dir('./APPLICATION/bufferManual') { // <-- SUBSTITUA PELO NOME DA SUA PASTA FRONT-END
-                        sh 'docker build -t bufferfront .'
-                    }
-                }
-            }
-        }
-        stage('Docker Compose Up') {
-            steps {
-                script {
+                    // CORRIGIDO: Sintaxe do environment e indentação de ports.
+                    // Os caminhos do 'context' agora estão corretos.
                     writeFile file: 'docker-compose.yml', text: '''
-                    version: '3'
-                    services:
-                      backend:
-                        image: bufferapi
-                        build:
-                          context: ./buffer-fork
-                        environment:
-                            MYSQLDATABASEUSER: ${MYSQLDATABASEUSER}
-                            MYSQLDATABASEHOST: ${MYSQLDATABASEHOST}
-                            MYSQLDATABASEDATABASE: ${MYSQLDATABASEDATABASE}
-                            MYSQLPORT: ${MYSQLPORT}
-                            MYSQLDATABASENHA: ${MYSQLDATABASENHA}
-                            EXCELFILE = ${EXCELFILE}
-                            SEARCHDIR = ${SEARCHDIR}
-                            HOST = ${HOST}
-                            PORT: ${PORT}
-                        ports:
-                          - "${PORT}:${PORT}"
-                          - "${TCPPORT}:${TCPPORT}"
-                          - "${WSPORT}:${WSPORT}"
-                        restart: always
-                      front:
-                        image: bufferfront
-                        build:
-                          context: ./bufferManual
-                        ports:
-                          - "8082:80"
-                        restart: always
-                    '''
-                    // Rodar o docker-compose usando variáveis de ambiente
-                    sh """
-                    docker-compose up -d
-                    """
+version: '3.8'
+services:
+  backend:
+    image: bufferapi
+    build:
+      context: ./buffer-fork
+    ports:
+      - "${PORT}:${PORT}"
+      - "${TCPPORT}:${TCPPORT}"
+      - "${WSPORT}:${WSPORT}"
+    environment:
+      - MYSQLDATABASEUSER=${MYSQLDATABASEUSER}
+      - MYSQLDATABASEHOST=${MYSQLDATABASEHOST}
+      - MYSQLDATABASEDATABASE=${MYSQLDATABASEDATABASE}
+      - MYSQLPORT=${MYSQLPORT}
+      - MYSQLDATABASENHA=${MYSQLDATABASENHA}
+      - EXCELFILE=${EXCELFILE}
+      - SEARCHDIR=${SEARCHDIR}
+      - HOST=${HOST}
+    restart: always
+    
+  frontend:
+    image: bufferfront
+    build:
+      context: ./bufferManual
+    ports:
+      - "8082:80"
+    restart: always
+'''
+                    sh "docker-compose up -d --build"
                 }
             }
+        }
+    }
+    
+    post {
+        always {
+            // Bloco de limpeza
+            sh "docker-compose down || true"
         }
     }
 }

@@ -29,9 +29,9 @@ pipeline {
                     sh '''
                     cd APPLICATION
                     cd buffer-fork
-                    docker build -t bufferAPI .
+                    docker build -t bufferapi .
                     cd ../bufferManual
-                    docker build -t bufferFront .
+                    docker build -t bufferfront .
                     '''
                 }
             }
@@ -44,7 +44,7 @@ pipeline {
                     version: '3'
                     services:
                       serviceA:
-                        image: bufferAPI
+                        image: bufferapi
                         build:
                           context: ./APPLICATION/buffer-fork
                         environment:
@@ -63,7 +63,7 @@ pipeline {
                           - "${WSPORT}:${WSPORT}"
                         restart: always
                       serviceB:
-                        image: bufferFront
+                        image: bufferfront
                         build:
                           context: ./APPLICATION/bufferManual
                         ports:

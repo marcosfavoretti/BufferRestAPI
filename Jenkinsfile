@@ -28,13 +28,13 @@ pipeline {
                 script {
                     echo "Construindo a imagem do Back-end..."
                     // Entra na pasta do back-end e constrói a imagem
-                    dir('buffer-fork') { // <-- SUBSTITUA PELO NOME DA SUA PASTA BACK-END
+                    dir('./APPLICATION/buffer-fork') { // <-- SUBSTITUA PELO NOME DA SUA PASTA BACK-END
                         sh 'docker build -t bufferapi .'
                     }
 
                     echo "Construindo a imagem do Front-end..."
                     // Entra na pasta do front-end e constrói a imagem
-                    dir('bufferManual') { // <-- SUBSTITUA PELO NOME DA SUA PASTA FRONT-END
+                    dir('./APPLICATION/bufferManual') { // <-- SUBSTITUA PELO NOME DA SUA PASTA FRONT-END
                         sh 'docker build -t bufferfront .'
                     }
                 }

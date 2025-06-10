@@ -74,11 +74,5 @@ services:
             }
         }
     }
-    
-    post {
-        always {
-            // Bloco de limpeza
-            sh "docker-compose down || true"
-        }
-    }
+
 }

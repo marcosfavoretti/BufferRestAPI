@@ -23,30 +23,33 @@ pipeline {
             }
         }
 
-        stage('Build Docker Images') {
+       stage('Build Docker Images') {
             steps {
                 script {
-                    sh '''
-                    cd APPLICATION
-                    cd buffer-fork
-                    docker build -t bufferapi .
-                    cd ../bufferManual
-                    docker build -t bufferfront .
-                    '''
+                    echo "Construindo a imagem do Back-end..."
+                    // Entra na pasta do back-end e constrói a imagem
+                    dir('buffer-fork') { // <-- SUBSTITUA PELO NOME DA SUA PASTA BACK-END
+                        sh 'docker build -t bufferapi .'
+                    }
+
+                    echo "Construindo a imagem do Front-end..."
+                    // Entra na pasta do front-end e constrói a imagem
+                    dir('bufferManual') { // <-- SUBSTITUA PELO NOME DA SUA PASTA FRONT-END
+                        sh 'docker build -t bufferfront .'
+                    }
                 }
             }
         }
-
         stage('Docker Compose Up') {
             steps {
                 script {
                     writeFile file: 'docker-compose.yml', text: '''
                     version: '3'
                     services:
-                      serviceA:
+                      backend:
                         image: bufferapi
                         build:
-                          context: ./APPLICATION/buffer-fork
+                          context: ./buffer-fork
                         environment:
                             MYSQLDATABASEUSER: ${MYSQLDATABASEUSER}
                             MYSQLDATABASEHOST: ${MYSQLDATABASEHOST}
@@ -62,10 +65,10 @@ pipeline {
                           - "${TCPPORT}:${TCPPORT}"
                           - "${WSPORT}:${WSPORT}"
                         restart: always
-                      serviceB:
+                      front:
                         image: bufferfront
                         build:
-                          context: ./APPLICATION/bufferManual
+                          context: ./bufferManual
                         ports:
                           - "8082:80"
                         restart: always

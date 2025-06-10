@@ -48,8 +48,6 @@ services:
       context: ./buffer-fork
     ports:
       - "${PORT}:${PORT}"
-      - "${TCPPORT}:${TCPPORT}"
-      - "${WSPORT}:${WSPORT}"
     environment:
       - MYSQLDATABASEUSER=${MYSQLDATABASEUSER}
       - MYSQLDATABASEHOST=${MYSQLDATABASEHOST}
@@ -59,6 +57,7 @@ services:
       - EXCELFILE=${EXCELFILE}
       - SEARCHDIR=${SEARCHDIR}
       - HOST=${HOST}
+      - PORT=${PORT}
     restart: always
     
   frontend:

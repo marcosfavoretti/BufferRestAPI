@@ -14,7 +14,7 @@ config();
             username: process.env.MYSQLDATABASEUSER,
             password: process.env.MYSQLDATABASENHA,
             host: process.env.MYSQLDATABASEHOST,
-            synchronize: false,
+            synchronize: true,
             options: {
                 trustServerCertificate: true,
                 cancelTimeout: 1000*60,
@@ -28,4 +28,4 @@ config();
         })
     ],
 })
-export class MysqlConfigModule { }
+export class SqlConfigModule { }

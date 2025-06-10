@@ -1,24 +1,24 @@
 import { Module } from "@nestjs/common";
 import { TypeOrmModule } from "@nestjs/typeorm";
-import { ItemQtdSemana } from "./@core/entities/ItemQtdSemana.entity";
 import { SaveBufferInHistUseCase } from "./application/SaveBufferInHist.usecase";
-import { BufferHistorico } from "./@core/entities/BufferHistorico.entity";
 import { ListItensAtivosUseCase } from "./application/ListItensAtivos.usecase";
-import { Production } from "../production/@core/entities/Production.entity";
+import { BufferServiceModule } from "./BufferService.module";
+import { ConsultaSetoresUseCase } from "./application/ConsultaSetores.usecase";
+import { ConsultarMercadoUseCase } from "./application/ConsultaMercados.usecase";
 
 @Module({
     imports: [
-        TypeOrmModule.forFeature([
-            ItemQtdSemana,
-            BufferHistorico,
-            Production
-        ])
+        BufferServiceModule
     ],
     providers: [
         SaveBufferInHistUseCase,
-        ListItensAtivosUseCase
+        ListItensAtivosUseCase,
+        ConsultaSetoresUseCase,
+        ConsultarMercadoUseCase,
     ],
     exports: [
+        ConsultaSetoresUseCase,
+        ConsultarMercadoUseCase,
         ListItensAtivosUseCase,
         SaveBufferInHistUseCase
     ]

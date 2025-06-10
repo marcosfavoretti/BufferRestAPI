@@ -1,12 +1,14 @@
 export interface tableColumns{
     alias: string;
-    path: string;
+    field: string;
     isImg?: boolean;
     isCheckBox?: boolean;
+    isDate?: boolean,
+    isInputText?: boolean,
     toTotalize?: boolean;
 }
 export interface ghostControllColumn{
-    path: string;
+    field: string;
     desc: string;
     ifValueEqual?: any;
     ifValueGreater?: any;
@@ -16,6 +18,6 @@ export interface TableModel{
     title: string;
     paginator?: boolean;
     totalize: boolean;
-    columns?: Array<tableColumns>;
+    columns: Array<tableColumns>;
     ghostControll?: Array<ghostControllColumn>
 }

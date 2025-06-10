@@ -1,0 +1,834 @@
+[09/06/2025, 14:25:01]: {
+  "files": [
+    {
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\index.ts",
+      "baseName": "index.ts",
+      "exports": [
+        {
+          "name": [
+            "BufferControllerSaveBufferLog201",
+            "BufferControllerSaveBufferLogMutationRequest",
+            "BufferControllerSaveBufferLogMutationResponse",
+            "BufferControllerSaveBufferLogMutation"
+          ],
+          "path": "./models/BufferControllerSaveBufferLog.ts",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "BufferHistoricoDTO"
+          ],
+          "path": "./models/BufferHistoricoDTO.ts",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "ItemDto"
+          ],
+          "path": "./models/ItemDto.ts",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "ItemQtdSemanaControllerListItens200",
+            "ItemQtdSemanaControllerListItensQueryResponse",
+            "ItemQtdSemanaControllerListItensQuery"
+          ],
+          "path": "./models/ItemQtdSemanaControllerListItens.ts",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "ResMercadosIntermediarioDoSetorDTOConsultaEnum",
+            "ResMercadosIntermediarioDoSetorDTO"
+          ],
+          "path": "./models/ResMercadosIntermediarioDoSetorDTO.ts",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "ResSetorDTO"
+          ],
+          "path": "./models/ResSetorDTO.ts",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "SaveBufferLogDto"
+          ],
+          "path": "./models/SaveBufferLogDto.ts",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "SetoresControllerGetSetoresMethodError",
+            "SetoresControllerGetSetoresMethodQueryResponse",
+            "SetoresControllerGetSetoresMethodQuery"
+          ],
+          "path": "./models/SetoresControllerGetSetoresMethod.ts",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "SetoresControllerGetSetorMercadoMethodPathParams",
+            "SetoresControllerGetSetorMercadoMethodError",
+            "SetoresControllerGetSetorMercadoMethodQueryResponse",
+            "SetoresControllerGetSetorMercadoMethodQuery"
+          ],
+          "path": "./models/SetoresControllerGetSetorMercadoMethod.ts",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "getBufferControllerSaveBufferLogUrl",
+            "bufferControllerSaveBufferLog"
+          ],
+          "path": "./client/bufferControllerSaveBufferLog.ts"
+        },
+        {
+          "name": [
+            "getItemQtdSemanaControllerListItensUrl",
+            "itemQtdSemanaControllerListItens"
+          ],
+          "path": "./client/itemQtdSemanaControllerListItens.ts"
+        },
+        {
+          "name": [
+            "getSetoresControllerGetSetoresMethodUrl",
+            "setoresControllerGetSetoresMethod"
+          ],
+          "path": "./client/setoresControllerGetSetoresMethod.ts"
+        },
+        {
+          "name": [
+            "getSetoresControllerGetSetorMercadoMethodUrl",
+            "setoresControllerGetSetorMercadoMethod"
+          ],
+          "path": "./client/setoresControllerGetSetorMercadoMethod.ts"
+        },
+        {
+          "name": [
+            "resMercadosIntermediarioDoSetorDTOConsultaEnum"
+          ],
+          "path": "./models/ResMercadosIntermediarioDoSetorDTO.ts"
+        }
+      ],
+      "sources": [],
+      "meta": {},
+      "id": "a90c823962767fbb6e83995f8fdc8d66291136b9",
+      "name": "index",
+      "extname": ".ts",
+      "imports": []
+    },
+    {
+      "baseName": "ItemDto.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ItemDto.ts",
+      "sources": [
+        {
+          "name": "ItemDto",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type ItemDto = {\n    /**\n     * @description Identificador do item\n     * @type string\n    */\n    Item: string;\n    /**\n     * @description Tipo do item\n     * @type string\n    */\n    tipo_item: string;\n    /**\n     * @description Código do item do cliente\n     * @type string\n    */\n    item_cliente: string;\n};"
+        }
+      ],
+      "exports": [],
+      "imports": [],
+      "meta": {
+        "pluginKey": [
+          "plugin-ts",
+          1
+        ],
+        "name": "ItemDto"
+      },
+      "id": "b37c9cef20bcdf1f20fd011280ddc53632f46034",
+      "name": "ItemDto",
+      "extname": ".ts"
+    },
+    {
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\schemas\\itemDto.json",
+      "baseName": "itemDto.json",
+      "meta": {
+        "pluginKey": [
+          "plugin-oas",
+          1
+        ]
+      },
+      "sources": [
+        {
+          "name": "itemDto",
+          "isExportable": false,
+          "isIndexable": false,
+          "value": "{\"type\":\"object\",\"properties\":{\"Item\":{\"type\":\"string\",\"description\":\"Identificador do item\",\"example\":\"ITEM_XYZ\"},\"tipo_item\":{\"type\":\"string\",\"description\":\"Tipo do item\",\"example\":\"PRODUTO FINAL\"},\"item_cliente\":{\"type\":\"string\",\"description\":\"Código do item do cliente\",\"example\":\"CLI-001\"}},\"required\":[\"Item\",\"tipo_item\",\"item_cliente\"],\"x-readme-ref-name\":\"ItemDto\"}"
+        }
+      ],
+      "id": "642d5e965afb99cd7905e4fa8619a8f7349dba00",
+      "name": "itemDto",
+      "extname": ".json",
+      "imports": [],
+      "exports": []
+    },
+    {
+      "baseName": "ResSetorDTO.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ResSetorDTO.ts",
+      "sources": [
+        {
+          "name": "ResSetorDTO",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type ResSetorDTO = {\n    /**\n     * @description ID único do setor (gerado automaticamente)\n     * @type number\n    */\n    readonly idSetor: number;\n    /**\n     * @description Nome do setor\n     * @type string\n    */\n    setor: string;\n    /**\n     * @description Operação associada ao setor\n     * @maxLength 5\n     * @type string\n    */\n    operacao: string;\n};"
+        }
+      ],
+      "exports": [],
+      "imports": [],
+      "meta": {
+        "pluginKey": [
+          "plugin-ts",
+          1
+        ],
+        "name": "ResSetorDTO"
+      },
+      "id": "0bb281c5e7012ca706c4415eafeb03981ee58c9d",
+      "name": "ResSetorDTO",
+      "extname": ".ts"
+    },
+    {
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\schemas\\resSetorDTO.json",
+      "baseName": "resSetorDTO.json",
+      "meta": {
+        "pluginKey": [
+          "plugin-oas",
+          1
+        ]
+      },
+      "sources": [
+        {
+          "name": "resSetorDTO",
+          "isExportable": false,
+          "isIndexable": false,
+          "value": "{\"type\":\"object\",\"properties\":{\"idSetor\":{\"type\":\"number\",\"description\":\"ID único do setor (gerado automaticamente)\",\"example\":1,\"readOnly\":true},\"setor\":{\"type\":\"string\",\"description\":\"Nome do setor\",\"example\":\"SOLDA\"},\"operacao\":{\"type\":\"string\",\"description\":\"Operação associada ao setor\",\"example\":\"00015\",\"maxLength\":5}},\"required\":[\"idSetor\",\"setor\",\"operacao\"],\"x-readme-ref-name\":\"ResSetorDTO\"}"
+        }
+      ],
+      "id": "7ae686e749a5a970527027c74c8fe3454ca628dc",
+      "name": "resSetorDTO",
+      "extname": ".json",
+      "imports": [],
+      "exports": []
+    },
+    {
+      "baseName": "SaveBufferLogDto.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SaveBufferLogDto.ts",
+      "sources": [
+        {
+          "name": "SaveBufferLogDto",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type SaveBufferLogDto = {\n    /**\n     * @type string\n    */\n    item: string;\n    /**\n     * @type number\n    */\n    qtd: number;\n    /**\n     * @type number\n    */\n    idMercado: number;\n};"
+        }
+      ],
+      "exports": [],
+      "imports": [],
+      "meta": {
+        "pluginKey": [
+          "plugin-ts",
+          1
+        ],
+        "name": "SaveBufferLogDto"
+      },
+      "id": "6168377b7129bc104acc89280cb54647f4bcb1f9",
+      "name": "SaveBufferLogDto",
+      "extname": ".ts"
+    },
+    {
+      "baseName": "BufferHistoricoDTO.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferHistoricoDTO.ts",
+      "sources": [
+        {
+          "name": "BufferHistoricoDTO",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type BufferHistoricoDTO = {\n    /**\n     * @description ID do histórico de buffer (gerado automaticamente)\n     * @type number | undefined\n    */\n    id?: number;\n    /**\n     * @description Data/Hora do registro (formato ISO 8601, ex: \\\"2025-06-09T10:30:00.000Z\\\" ou \\\"2025-06-09\\\")\n     * @type string, date-time\n    */\n    serverTime: string;\n    /**\n     * @description Dados do item associado ao histórico de buffer\n    */\n    item: ItemDto;\n    /**\n     * @description Valor do buffer\n     * @type number\n    */\n    buffer: number;\n};"
+        }
+      ],
+      "exports": [],
+      "imports": [
+        {
+          "name": [
+            "ItemDto"
+          ],
+          "root": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferHistoricoDTO.ts",
+          "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ItemDto.ts",
+          "isTypeOnly": true
+        }
+      ],
+      "meta": {
+        "pluginKey": [
+          "plugin-ts",
+          1
+        ],
+        "name": "BufferHistoricoDTO"
+      },
+      "id": "f1f1311a65a81b8518139bfba6770ba9b2a15a94",
+      "name": "BufferHistoricoDTO",
+      "extname": ".ts"
+    },
+    {
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\schemas\\saveBufferLogDto.json",
+      "baseName": "saveBufferLogDto.json",
+      "meta": {
+        "pluginKey": [
+          "plugin-oas",
+          1
+        ]
+      },
+      "sources": [
+        {
+          "name": "saveBufferLogDto",
+          "isExportable": false,
+          "isIndexable": false,
+          "value": "{\"type\":\"object\",\"properties\":{\"item\":{\"type\":\"string\"},\"qtd\":{\"type\":\"number\"},\"idMercado\":{\"type\":\"number\"}},\"required\":[\"item\",\"qtd\",\"idMercado\"],\"x-readme-ref-name\":\"SaveBufferLogDto\"}"
+        }
+      ],
+      "id": "407773c4f5de57259414c47bbf43baff8d8823f9",
+      "name": "saveBufferLogDto",
+      "extname": ".json",
+      "imports": [],
+      "exports": []
+    },
+    {
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\schemas\\bufferHistoricoDTO.json",
+      "baseName": "bufferHistoricoDTO.json",
+      "meta": {
+        "pluginKey": [
+          "plugin-oas",
+          1
+        ]
+      },
+      "sources": [
+        {
+          "name": "bufferHistoricoDTO",
+          "isExportable": false,
+          "isIndexable": false,
+          "value": "{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"number\",\"description\":\"ID do histórico de buffer (gerado automaticamente)\",\"example\":1},\"serverTime\":{\"format\":\"date-time\",\"type\":\"string\",\"description\":\"Data/Hora do registro (formato ISO 8601, ex: \\\"2025-06-09T10:30:00.000Z\\\" ou \\\"2025-06-09\\\")\",\"example\":\"2025-06-09T09:34:30.000Z\"},\"item\":{\"description\":\"Dados do item associado ao histórico de buffer\",\"allOf\":[{\"type\":\"object\",\"properties\":{\"Item\":{\"type\":\"string\",\"description\":\"Identificador do item\",\"example\":\"ITEM_XYZ\"},\"tipo_item\":{\"type\":\"string\",\"description\":\"Tipo do item\",\"example\":\"PRODUTO FINAL\"},\"item_cliente\":{\"type\":\"string\",\"description\":\"Código do item do cliente\",\"example\":\"CLI-001\"}},\"required\":[\"Item\",\"tipo_item\",\"item_cliente\"],\"x-readme-ref-name\":\"ItemDto\"}]},\"buffer\":{\"type\":\"number\",\"description\":\"Valor do buffer\",\"example\":123}},\"required\":[\"serverTime\",\"item\",\"buffer\"],\"x-readme-ref-name\":\"BufferHistoricoDTO\"}"
+        }
+      ],
+      "id": "998694e9c9a86932356cf3ff8d260eae9fbcb5c5",
+      "name": "bufferHistoricoDTO",
+      "extname": ".json",
+      "imports": [],
+      "exports": []
+    },
+    {
+      "baseName": "BufferControllerSaveBufferLog.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerSaveBufferLog.ts",
+      "sources": [
+        {
+          "name": "BufferControllerSaveBufferLog201",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type BufferControllerSaveBufferLog201 = any;"
+        },
+        {
+          "name": "BufferControllerSaveBufferLogMutationRequest",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type BufferControllerSaveBufferLogMutationRequest = SaveBufferLogDto;"
+        },
+        {
+          "name": "BufferControllerSaveBufferLogMutationResponse",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type BufferControllerSaveBufferLogMutationResponse = BufferControllerSaveBufferLog201;"
+        },
+        {
+          "name": "BufferControllerSaveBufferLogMutation",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type BufferControllerSaveBufferLogMutation = {\n    Response: BufferControllerSaveBufferLog201;\n    Request: BufferControllerSaveBufferLogMutationRequest;\n    Errors: any;\n};"
+        }
+      ],
+      "exports": [],
+      "imports": [
+        {
+          "name": [
+            "SaveBufferLogDto"
+          ],
+          "root": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerSaveBufferLog.ts",
+          "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SaveBufferLogDto.ts",
+          "isTypeOnly": true
+        }
+      ],
+      "meta": {
+        "pluginKey": [
+          "plugin-ts",
+          1
+        ],
+        "name": "BufferControllerSaveBufferLog",
+        "group": {
+          "tag": "Buffer",
+          "path": "/buffer"
+        }
+      },
+      "id": "b3c7df8f6ce712e4fff74d22134137b809dc46e9",
+      "name": "BufferControllerSaveBufferLog",
+      "extname": ".ts"
+    },
+    {
+      "baseName": "bufferControllerSaveBufferLog.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\bufferControllerSaveBufferLog.ts",
+      "sources": [
+        {
+          "name": "getBufferControllerSaveBufferLogUrl",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export function getBufferControllerSaveBufferLogUrl() {\n  return `http://192.168.99.129:9192/buffer` as const\n}"
+        },
+        {
+          "name": "bufferControllerSaveBufferLog",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "/**\n * {@link /buffer}\n */\nexport async function bufferControllerSaveBufferLog(data: BufferControllerSaveBufferLogMutationRequest, config: Partial<RequestConfig<BufferControllerSaveBufferLogMutationRequest>> & { client?: typeof client } = {}) {\n  const { client:request = client, ...requestConfig } = config\n\nconst res = await request<BufferControllerSaveBufferLogMutationResponse, ResponseErrorConfig<Error>, BufferControllerSaveBufferLogMutationRequest>({ method : \"POST\", url : getBufferControllerSaveBufferLogUrl().toString(), data, ... requestConfig })\nreturn res.data\n}"
+        }
+      ],
+      "exports": [],
+      "imports": [
+        {
+          "name": "client",
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": false
+        },
+        {
+          "name": [
+            "RequestConfig",
+            "ResponseErrorConfig"
+          ],
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "BufferControllerSaveBufferLogMutationRequest",
+            "BufferControllerSaveBufferLogMutationResponse"
+          ],
+          "root": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\bufferControllerSaveBufferLog.ts",
+          "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerSaveBufferLog.ts",
+          "isTypeOnly": true
+        }
+      ],
+      "meta": {
+        "pluginKey": [
+          "plugin-client",
+          1
+        ],
+        "name": "bufferControllerSaveBufferLog",
+        "group": {
+          "tag": "Buffer",
+          "path": "/buffer"
+        }
+      },
+      "id": "2d283b8d8f5915790b62e9ab27b2ffe0cee6b976",
+      "name": "bufferControllerSaveBufferLog",
+      "extname": ".ts"
+    },
+    {
+      "baseName": "ItemQtdSemanaControllerListItens.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ItemQtdSemanaControllerListItens.ts",
+      "sources": [
+        {
+          "name": "ItemQtdSemanaControllerListItens200",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type ItemQtdSemanaControllerListItens200 = any;"
+        },
+        {
+          "name": "ItemQtdSemanaControllerListItensQueryResponse",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type ItemQtdSemanaControllerListItensQueryResponse = ItemQtdSemanaControllerListItens200;"
+        },
+        {
+          "name": "ItemQtdSemanaControllerListItensQuery",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type ItemQtdSemanaControllerListItensQuery = {\n    Response: ItemQtdSemanaControllerListItens200;\n    Errors: any;\n};"
+        }
+      ],
+      "exports": [],
+      "imports": [],
+      "meta": {
+        "pluginKey": [
+          "plugin-ts",
+          1
+        ],
+        "name": "ItemQtdSemanaControllerListItens",
+        "group": {
+          "tag": "ItemQtdSemana",
+          "path": "/item"
+        }
+      },
+      "id": "60d749aeaa55c064c82fef21f2aa98b158566160",
+      "name": "ItemQtdSemanaControllerListItens",
+      "extname": ".ts"
+    },
+    {
+      "baseName": "itemQtdSemanaControllerListItens.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\itemQtdSemanaControllerListItens.ts",
+      "sources": [
+        {
+          "name": "getItemQtdSemanaControllerListItensUrl",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export function getItemQtdSemanaControllerListItensUrl() {\n  return `http://192.168.99.129:9192/item` as const\n}"
+        },
+        {
+          "name": "itemQtdSemanaControllerListItens",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "/**\n * {@link /item}\n */\nexport async function itemQtdSemanaControllerListItens(config: Partial<RequestConfig> & { client?: typeof client } = {}) {\n  const { client:request = client, ...requestConfig } = config\n\nconst res = await request<ItemQtdSemanaControllerListItensQueryResponse, ResponseErrorConfig<Error>, unknown>({ method : \"GET\", url : getItemQtdSemanaControllerListItensUrl().toString(), ... requestConfig })\nreturn res.data\n}"
+        }
+      ],
+      "exports": [],
+      "imports": [
+        {
+          "name": "client",
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": false
+        },
+        {
+          "name": [
+            "RequestConfig",
+            "ResponseErrorConfig"
+          ],
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "ItemQtdSemanaControllerListItensQueryResponse"
+          ],
+          "root": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\itemQtdSemanaControllerListItens.ts",
+          "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ItemQtdSemanaControllerListItens.ts",
+          "isTypeOnly": true
+        }
+      ],
+      "meta": {
+        "pluginKey": [
+          "plugin-client",
+          1
+        ],
+        "name": "itemQtdSemanaControllerListItens",
+        "group": {
+          "tag": "ItemQtdSemana",
+          "path": "/item"
+        }
+      },
+      "id": "d056114debe85ef452fd9c5a8ac339b34184f5ad",
+      "name": "itemQtdSemanaControllerListItens",
+      "extname": ".ts"
+    },
+    {
+      "baseName": "SetoresControllerGetSetoresMethod.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetoresMethod.ts",
+      "sources": [
+        {
+          "name": "SetoresControllerGetSetoresMethodError",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type SetoresControllerGetSetoresMethodError = ResSetorDTO[];"
+        },
+        {
+          "name": "SetoresControllerGetSetoresMethodQueryResponse",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type SetoresControllerGetSetoresMethodQueryResponse = any;"
+        },
+        {
+          "name": "SetoresControllerGetSetoresMethodQuery",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type SetoresControllerGetSetoresMethodQuery = {\n    Response: any;\n    Errors: any;\n};"
+        }
+      ],
+      "exports": [],
+      "imports": [
+        {
+          "name": [
+            "ResSetorDTO"
+          ],
+          "root": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetoresMethod.ts",
+          "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ResSetorDTO.ts",
+          "isTypeOnly": true
+        }
+      ],
+      "meta": {
+        "pluginKey": [
+          "plugin-ts",
+          1
+        ],
+        "name": "SetoresControllerGetSetoresMethod",
+        "group": {
+          "tag": "Setores",
+          "path": "/setores"
+        }
+      },
+      "id": "a9c3110bfc8fac778272df2375b7e708c1acbae1",
+      "name": "SetoresControllerGetSetoresMethod",
+      "extname": ".ts"
+    },
+    {
+      "baseName": "setoresControllerGetSetoresMethod.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\setoresControllerGetSetoresMethod.ts",
+      "sources": [
+        {
+          "name": "getSetoresControllerGetSetoresMethodUrl",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export function getSetoresControllerGetSetoresMethodUrl() {\n  return `http://192.168.99.129:9192/setores` as const\n}"
+        },
+        {
+          "name": "setoresControllerGetSetoresMethod",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "/**\n * {@link /setores}\n */\nexport async function setoresControllerGetSetoresMethod(config: Partial<RequestConfig> & { client?: typeof client } = {}) {\n  const { client:request = client, ...requestConfig } = config\n\nconst res = await request<SetoresControllerGetSetoresMethodQueryResponse, ResponseErrorConfig<Error>, unknown>({ method : \"GET\", url : getSetoresControllerGetSetoresMethodUrl().toString(), ... requestConfig })\nreturn res.data\n}"
+        }
+      ],
+      "exports": [],
+      "imports": [
+        {
+          "name": "client",
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": false
+        },
+        {
+          "name": [
+            "RequestConfig",
+            "ResponseErrorConfig"
+          ],
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "SetoresControllerGetSetoresMethodQueryResponse"
+          ],
+          "root": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\setoresControllerGetSetoresMethod.ts",
+          "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetoresMethod.ts",
+          "isTypeOnly": true
+        }
+      ],
+      "meta": {
+        "pluginKey": [
+          "plugin-client",
+          1
+        ],
+        "name": "setoresControllerGetSetoresMethod",
+        "group": {
+          "tag": "Setores",
+          "path": "/setores"
+        }
+      },
+      "id": "7c510d71499da357392abe6124e880958a80c801",
+      "name": "setoresControllerGetSetoresMethod",
+      "extname": ".ts"
+    },
+    {
+      "baseName": "ResMercadosIntermediarioDoSetorDTO.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ResMercadosIntermediarioDoSetorDTO.ts",
+      "sources": [
+        {
+          "name": "resMercadosIntermediarioDoSetorDTOConsultaEnum",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export const resMercadosIntermediarioDoSetorDTOConsultaEnum = {\n    \"110\": \"110\",\n    \"000\": \"000\",\n    \"TODOS\": \"TODOS\"\n} as const;"
+        },
+        {
+          "name": "ResMercadosIntermediarioDoSetorDTOConsultaEnum",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type ResMercadosIntermediarioDoSetorDTOConsultaEnum = (typeof resMercadosIntermediarioDoSetorDTOConsultaEnum)[keyof typeof resMercadosIntermediarioDoSetorDTOConsultaEnum];"
+        },
+        {
+          "name": "ResMercadosIntermediarioDoSetorDTO",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type ResMercadosIntermediarioDoSetorDTO = {\n    /**\n     * @description ID único do mercado intermediário (gerado automaticamente)\n     * @type number\n    */\n    readonly idMercadosIntermediario: number;\n    /**\n     * @description Tipo de consulta associado ao mercado\n     * @type string\n    */\n    consulta: ResMercadosIntermediarioDoSetorDTOConsultaEnum;\n    /**\n     * @description Nome do mercado intermediário\n     * @maxLength 255\n     * @type string\n    */\n    nome: string;\n    /**\n     * @description Histórico de buffers associado a este mercado.\n     * @type array\n    */\n    histBuffer: BufferHistoricoDTO[];\n};"
+        }
+      ],
+      "exports": [],
+      "imports": [
+        {
+          "name": [
+            "BufferHistoricoDTO"
+          ],
+          "root": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ResMercadosIntermediarioDoSetorDTO.ts",
+          "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferHistoricoDTO.ts",
+          "isTypeOnly": true
+        }
+      ],
+      "meta": {
+        "pluginKey": [
+          "plugin-ts",
+          1
+        ],
+        "name": "ResMercadosIntermediarioDoSetorDTO"
+      },
+      "id": "00580a394666ea359807d6e8ef972f95b14fe395",
+      "name": "ResMercadosIntermediarioDoSetorDTO",
+      "extname": ".ts"
+    },
+    {
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\schemas\\resMercadosIntermediarioDoSetorDTO.json",
+      "baseName": "resMercadosIntermediarioDoSetorDTO.json",
+      "meta": {
+        "pluginKey": [
+          "plugin-oas",
+          1
+        ]
+      },
+      "sources": [
+        {
+          "name": "resMercadosIntermediarioDoSetorDTO",
+          "isExportable": false,
+          "isIndexable": false,
+          "value": "{\"type\":\"object\",\"properties\":{\"idMercadosIntermediario\":{\"type\":\"number\",\"description\":\"ID único do mercado intermediário (gerado automaticamente)\",\"example\":101,\"readOnly\":true},\"consulta\":{\"type\":\"string\",\"description\":\"Tipo de consulta associado ao mercado\",\"enum\":[\"110\",\"000\",\"TODOS\"],\"example\":\"000\"},\"nome\":{\"type\":\"string\",\"description\":\"Nome do mercado intermediário\",\"example\":\"MERCADO ABC\",\"maxLength\":255},\"histBuffer\":{\"description\":\"Histórico de buffers associado a este mercado.\",\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"number\",\"description\":\"ID do histórico de buffer (gerado automaticamente)\",\"example\":1},\"serverTime\":{\"format\":\"date-time\",\"type\":\"string\",\"description\":\"Data/Hora do registro (formato ISO 8601, ex: \\\"2025-06-09T10:30:00.000Z\\\" ou \\\"2025-06-09\\\")\",\"example\":\"2025-06-09T09:34:30.000Z\"},\"item\":{\"description\":\"Dados do item associado ao histórico de buffer\",\"allOf\":[{\"type\":\"object\",\"properties\":{\"Item\":{\"type\":\"string\",\"description\":\"Identificador do item\",\"example\":\"ITEM_XYZ\"},\"tipo_item\":{\"type\":\"string\",\"description\":\"Tipo do item\",\"example\":\"PRODUTO FINAL\"},\"item_cliente\":{\"type\":\"string\",\"description\":\"Código do item do cliente\",\"example\":\"CLI-001\"}},\"required\":[\"Item\",\"tipo_item\",\"item_cliente\"],\"x-readme-ref-name\":\"ItemDto\"}]},\"buffer\":{\"type\":\"number\",\"description\":\"Valor do buffer\",\"example\":123}},\"required\":[\"serverTime\",\"item\",\"buffer\"],\"x-readme-ref-name\":\"BufferHistoricoDTO\"}}},\"required\":[\"idMercadosIntermediario\",\"consulta\",\"nome\",\"histBuffer\"],\"x-readme-ref-name\":\"ResMercadosIntermediarioDoSetorDTO\"}"
+        }
+      ],
+      "id": "5a95143da3cf702daed4127cc5f02e6cc54b2c79",
+      "name": "resMercadosIntermediarioDoSetorDTO",
+      "extname": ".json",
+      "imports": [],
+      "exports": []
+    },
+    {
+      "baseName": "SetoresControllerGetSetorMercadoMethod.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetorMercadoMethod.ts",
+      "sources": [
+        {
+          "name": "SetoresControllerGetSetorMercadoMethodPathParams",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type SetoresControllerGetSetorMercadoMethodPathParams = {\n    /**\n     * @type number\n    */\n    setorId: number;\n    /**\n     * @type string\n    */\n    dia: string;\n};"
+        },
+        {
+          "name": "SetoresControllerGetSetorMercadoMethodError",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type SetoresControllerGetSetorMercadoMethodError = ResMercadosIntermediarioDoSetorDTO[];"
+        },
+        {
+          "name": "SetoresControllerGetSetorMercadoMethodQueryResponse",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type SetoresControllerGetSetorMercadoMethodQueryResponse = any;"
+        },
+        {
+          "name": "SetoresControllerGetSetorMercadoMethodQuery",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type SetoresControllerGetSetorMercadoMethodQuery = {\n    Response: any;\n    PathParams: SetoresControllerGetSetorMercadoMethodPathParams;\n    Errors: any;\n};"
+        }
+      ],
+      "exports": [],
+      "imports": [
+        {
+          "name": [
+            "ResMercadosIntermediarioDoSetorDTO"
+          ],
+          "root": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetorMercadoMethod.ts",
+          "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ResMercadosIntermediarioDoSetorDTO.ts",
+          "isTypeOnly": true
+        }
+      ],
+      "meta": {
+        "pluginKey": [
+          "plugin-ts",
+          1
+        ],
+        "name": "SetoresControllerGetSetorMercadoMethod",
+        "group": {
+          "tag": "Setores",
+          "path": "/setores/{setorId}/mercados/{dia}"
+        }
+      },
+      "id": "d3aafe9ca7e5e79fec9e25abf88709024a5f6fbd",
+      "name": "SetoresControllerGetSetorMercadoMethod",
+      "extname": ".ts"
+    },
+    {
+      "baseName": "setoresControllerGetSetorMercadoMethod.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\setoresControllerGetSetorMercadoMethod.ts",
+      "sources": [
+        {
+          "name": "getSetoresControllerGetSetorMercadoMethodUrl",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export function getSetoresControllerGetSetorMercadoMethodUrl(setorId: SetoresControllerGetSetorMercadoMethodPathParams[\"setorId\"], dia: SetoresControllerGetSetorMercadoMethodPathParams[\"dia\"]) {\n  return `http://192.168.99.129:9192/setores/${setorId}/mercados/${dia}` as const\n}"
+        },
+        {
+          "name": "setoresControllerGetSetorMercadoMethod",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "/**\n * {@link /setores/:setorId/mercados/:dia}\n */\nexport async function setoresControllerGetSetorMercadoMethod(setorId: SetoresControllerGetSetorMercadoMethodPathParams[\"setorId\"], dia: SetoresControllerGetSetorMercadoMethodPathParams[\"dia\"], config: Partial<RequestConfig> & { client?: typeof client } = {}) {\n  const { client:request = client, ...requestConfig } = config\n\nconst res = await request<SetoresControllerGetSetorMercadoMethodQueryResponse, ResponseErrorConfig<Error>, unknown>({ method : \"GET\", url : getSetoresControllerGetSetorMercadoMethodUrl(setorId, dia).toString(), ... requestConfig })\nreturn res.data\n}"
+        }
+      ],
+      "exports": [],
+      "imports": [
+        {
+          "name": "client",
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": false
+        },
+        {
+          "name": [
+            "RequestConfig",
+            "ResponseErrorConfig"
+          ],
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "SetoresControllerGetSetorMercadoMethodQueryResponse",
+            "SetoresControllerGetSetorMercadoMethodPathParams"
+          ],
+          "root": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\setoresControllerGetSetorMercadoMethod.ts",
+          "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetorMercadoMethod.ts",
+          "isTypeOnly": true
+        }
+      ],
+      "meta": {
+        "pluginKey": [
+          "plugin-client",
+          1
+        ],
+        "name": "setoresControllerGetSetorMercadoMethod",
+        "group": {
+          "tag": "Setores",
+          "path": "/setores/{setorId}/mercados/{dia}"
+        }
+      },
+      "id": "7afc9ee11a597139a5452b858c2aafde7ebaaac7",
+      "name": "setoresControllerGetSetorMercadoMethod",
+      "extname": ".ts"
+    }
+  ]
+}

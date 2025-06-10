@@ -3,11 +3,14 @@ import { ItemQtdSemana } from "../@core/entities/ItemQtdSemana.entity";
 import { Like, Repository } from "typeorm";
 import { ItemBufferResponse } from "../@core/class/ItemBufferResponse";
 import { Production } from "src/modules/production/@core/entities/Production.entity";
+import { Inject } from "@nestjs/common";
+import { ItemQtdSemanaRepository } from "../infra/repository/ItemQtdSemana.repository";
+import { ProductionRepository } from "src/modules/production/infra/repository/Production.repository";
 
 export class ListItensAtivosUseCase {
     constructor(
-        @InjectRepository(Production) private productionRepo: Repository<Production>,
-        @InjectRepository(ItemQtdSemana) private itemqtdRepo: Repository<ItemQtdSemana>
+        @Inject(ProductionRepository) private productionRepo: Repository<Production>,
+        @Inject(ItemQtdSemanaRepository) private itemqtdRepo: Repository<ItemQtdSemana>
     ) { }
 
     async list(): Promise<ItemBufferResponse[]> {
@@ -29,7 +32,6 @@ export class ListItensAtivosUseCase {
                     ProductionID: 'desc'
                 }
             });
-            console.log(production, item.Item);
             responseItens.push(new ItemBufferResponse(item, production));
         }
         return responseItens;

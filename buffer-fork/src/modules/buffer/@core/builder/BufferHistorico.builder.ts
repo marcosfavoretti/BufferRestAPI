@@ -1,17 +1,23 @@
-import { format } from "date-fns";
+import { format, startOfDay } from "date-fns";
 import { BufferHistorico } from "../entities/BufferHistorico.entity";
 import { ItemQtdSemana } from "../entities/ItemQtdSemana.entity";
+import { MercadosIntermediario } from "../entities/MercadosIntermediarios.entity";
 
 export class BufferHistoricoBuilder {
     private bufferHist: BufferHistorico = new BufferHistorico();
 
     capturaData(): this{
-        this.bufferHist.serverTime = format(new Date(), 'dd/MM/yyyy');
+        this.bufferHist.serverTime = startOfDay(new Date());
         return this;
     }
 
     comId(id: number): this{
         this.bufferHist.id = id;
+        return this;
+    }
+
+    noMercado(mercado: MercadosIntermediario):this{
+        this.bufferHist.mercado = mercado;
         return this;
     }
 

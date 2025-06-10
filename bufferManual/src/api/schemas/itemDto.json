@@ -1,0 +1,1 @@
+{"type":"object","properties":{"Item":{"type":"string","description":"Identificador do item","example":"ITEM_XYZ"},"tipo_item":{"type":"string","description":"Tipo do item","example":"PRODUTO FINAL"},"item_cliente":{"type":"string","description":"Código do item do cliente","example":"CLI-001"}},"required":["Item","tipo_item","item_cliente"],"x-readme-ref-name":"ItemDto"}

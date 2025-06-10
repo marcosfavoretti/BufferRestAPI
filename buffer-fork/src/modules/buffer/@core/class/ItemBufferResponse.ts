@@ -1,13 +1,18 @@
+import { ApiProperty } from "@nestjs/swagger";
 import { ItemQtdSemana } from "../entities/ItemQtdSemana.entity";
 import { Production } from "src/modules/production/@core/entities/Production.entity";
 
 export class ItemBufferResponse {
+    @ApiProperty()
     public Item: string; // Armazena como string no banco
 
+    @ApiProperty()
     public tipo_item: string;
 
+    @ApiProperty()
     public currentBuffer: number;
 
+    @ApiProperty()
     public codClient: string;
 
     constructor(

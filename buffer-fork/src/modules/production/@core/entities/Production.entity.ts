@@ -2,7 +2,7 @@ import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 import { ProductionData } from "./ProductionData.entity";
 import { TypeData } from "../enum/TypeData.enum";
 
-@Entity({ name: 'Production' })
+@Entity({ name: 'Production', synchronize: false})
 export class Production {
     @PrimaryGeneratedColumn('increment')
     public ProductionID: number;

@@ -1,46 +1,79 @@
 pipeline {
     agent any
 
+    environment {
+        REPO = 'https://github.com/marcosfavoretti/BufferRestAPI.git'
+    }
+
     stages {
-        stage('Checkout Código') {
-            steps {
-                git branch: 'main', url: 'https://github.com/marcosfavoretti/BufferRestAPI.git' 
-            }
-        }
-
-        stage('Build Backend') {
+        stage('Clone Repositories') {
             steps {
                 script {
-                    dir('buffer-fork') {
-                        bat 'docker build -t bufferapi:1.0 .'
+                    dir('APPLICATION') {
+                        checkout([ 
+                            $class: 'GitSCM', 
+                            branches: [[name: '*/main']], 
+                            userRemoteConfigs: [[ 
+                                url: REPO_FRONT, 
+                                credentialsId: 'github-ssh-key' 
+                            ]]
+                        ])
                     }
                 }
             }
         }
 
-        stage('Deploy Backend') {
+        stage('Build Docker Images') {
             steps {
                 script {
-                    // Rodar o container do backend
-                    bat 'docker run -d -p 3691:3000 bufferapi'
+                    sh '''
+                    cd APPLICATION
+                    docker build -t ./buffer-fork/fiberlaserfront .
+
+                    docker build -t ./bufferManual/fiberlaserapi .
+                    '''
                 }
             }
         }
 
-        stage('Build e Deploy Frontend') {
+        stage('Docker Compose Up') {
             steps {
                 script {
-                    dir('bufferManual') {
-                        // Criar a imagem do frontend (para o XAMPP)
-                        bat 'docker build -t bufferfrontend:1.0 .'
-                    }
+                    writeFile file: 'docker-compose.yml', text: '''
+                    version: '3'
+                    services:
+                      serviceA:
+                        image: bufferAPI
+                        build:
+                          context: ./APPLICATION/buffer-fork
+                        environment:
+                            MYSQLDATABASEUSER: ${MYSQLDATABASEUSER}
+                            MYSQLDATABASEHOST: ${MYSQLDATABASEHOST}
+                            MYSQLDATABASEDATABASE: ${MYSQLDATABASEDATABASE}
+                            MYSQLPORT: ${MYSQLPORT}
+                            MYSQLDATABASENHA: ${MYSQLDATABASENHA}
+                            EXCELFILE = ${EXCELFILE}
+                            SEARCHDIR = ${SEARCHDIR}
+                            HOST = ${HOST}
+                            PORT: ${PORT}
+                        ports:
+                          - "${PORT}:${PORT}"
+                          - "${TCPPORT}:${TCPPORT}"
+                          - "${WSPORT}:${WSPORT}"
+                        restart: always
+                      serviceB:
+                        image: bufferFront
+                        build:
+                          context: ./APPLICATION/bufferManual
+                        ports:
+                          - "8082:80"
+                        restart: always
+                    '''
+                    // Rodar o docker-compose usando variáveis de ambiente
+                    sh """
+                    docker-compose up -d
+                    """
                 }
-            }
-        }
-
-        stage('Finalizar') {
-            steps {
-                echo 'Frontend copiado para o XAMPP e Backend rodando no container.'
             }
         }
     }

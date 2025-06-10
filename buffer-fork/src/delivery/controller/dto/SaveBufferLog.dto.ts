@@ -9,4 +9,8 @@ export class SaveBufferLogDto{
     @ApiProperty()
     @IsNumber()
     qtd: number
+
+    @ApiProperty()
+    @IsString()
+    mercadoName: string
 }

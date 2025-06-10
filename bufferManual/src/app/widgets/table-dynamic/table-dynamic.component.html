@@ -1,36 +1,26 @@
-@if (tableModel.ghostControll?.length) {
-<div>
-  <ul class="list list-unstyled">
-    @for (topic of tableModel.ghostControll; track $index) {
-    <li class="d-flex text-responsive align-items-center gap-2">{{topic.desc}}: <div
-        [ngStyle]="{'background-color': topic.color}" style="width: 10px; height: 10px;" class="rounded-circle border">
-      </div>
-    </li>
-    }
-  </ul>
-</div>
-}
 <div class="d-flex gap-2 p-3">
   <h2 class="text-success">{{tableModel.title}}</h2>
-  <span class="text-responsive">nº registros {{ data.length ||0}}</span>
 </div>
-<p-table #dt2 [globalFilterFields]="getAllColumns()" [value]="data" [responsive]="true" groupRowsBy="atr_group"
-  dataKey="atr_group" [paginator]="tableModel.paginator? true: false" [rows]="10"
-  [rowsPerPageOptions]="30 < data.length? [10, 20, 30, data.length]: [10,20,30]" responsiveLayout="scroll"
+<p-table #dt2 [globalFilterFields]="getAllColumns()" [value]="data" groupRowsBy="atr_group" dataKey="atr_group"
+  [paginator]="tableModel.paginator? true: false" [rows]="10" [columns]="tableModel.columns"
+  [rowsPerPageOptions]="30 < (data ? data.length : 0) ? [10, 20, 30, data ? data.length : 0 ]: [10,20,30]"
   [rowGroupMode]="tableModel.totalize ? 'subheader' : undefined">
-  <!-- filtro para buscar registro -->
-  <ng-template #caption>
-    <div class="flex">
-      <i class="pi pi-search px-2"></i>
-      <input pInputText type="text" (input)="search(dt2, $event)" placeholder="desc ou codigo..."/>
+  <ng-template #caption class="bg-white">
+    <div class="d-flex justify-content-between">
+      <div class="d-flex gap-2 justify-content-start align-items-center">
+        <input pInputText type="text" placeholder="pesquisa..." (input)="applyFilterGlobal($event, 'contains')" />
+        <i class="pi pi-search"></i>
+      </div>
+      <div class="d-flex gap-2">
+        <p-button icon="pi pi-file-excel" label=".xlsx" (click)="exportarExcel()" />
+        <p-button icon="pi pi-table" label=".csv" (click)="dt2.exportCSV()" />
+      </div>
     </div>
   </ng-template>
-  <!-- filtro para buscar registro -->
-
-  <ng-template pTemplate="header">
+  <ng-template pTemplate="header" let-columns>
     <tr class="">
-      @for (key of tableModel.columns ; track $index) {
-      <th class="text-responsive text-center">{{ key.alias || key.path }}</th>
+      @for (key of columns ; track $index) {
+      <th class="text-responsive text-center">{{ key.alias || key.field }}</th>
       }
     </tr>
   </ng-template>
@@ -62,18 +52,18 @@
       <td class="text-responsive text-center">
         @if (key.isImg) {
         <div class="d-flex justify-content-center align-items-center">
-          @if (!getNestedValue(item, key.path)) {
+          @if (!getNestedValue(item, key.field)) {
           <div class="bg-secondary-subtle rounded d-flex justify-content-center align-items-center"
             style="width: 100px; height: 75px;">
             <i class="pi pi-eye-slash"></i>
           </div>
           }
           @else {
-          <p-image [preview]="true" [src]="getNestedValue(item, key.path)" width="100px" alt="" />
+          <p-image [preview]="true" [src]="'http://192.168.99.102:9192/files/image?partcode='+getNestedValue(item, key.field)" width="100px" height="100px" alt="" />
           }
         </div> }
         @else {
-        {{getNestedValue(item, key.path)}}
+        {{getNestedValue(item, key.field)}}
         }
       </td>
       }
@@ -81,13 +71,13 @@
   </ng-template>
   }
   @else {
-  <ng-template pTemplate="body" let-item>
+  <ng-template pTemplate="body" let-item let-columns="columns" #body>
     <tr [ngStyle]="checkHighLight(item)">
-      @for (key of tableModel.columns; track $index) {
+      @for (key of columns; track $index) {
       <td class="text-responsive text-center border-bottom border-secondary-subtle py-2">
         @if (key?.isImg) {
         <div class="d-flex justify-content-center align-items-center">
-          @if (!getNestedValue(item, key.path)) {
+          @if (!getNestedValue(item, key.field)) {
           <div class="bg-secondary-subtle rounded d-flex justify-content-center align-items-center"
             style="width: 100px; height: 75px;">
             <i class="pi pi-eye-slash"></i>
@@ -95,24 +85,56 @@
           }
 
           @else {
-          <!-- <p-image [preview]="true" [src]="getNestedValue(item, key.path)" width="100px" alt="" /> -->
-          <p-image [preview]="true"
-            [src]="'http://192.168.99.102:9192/files/image?partcode='+getNestedValue(item, key.path)" width="100px"
-            alt="" />
+          <p-image [preview]="true" [src]="'http://192.168.99.102:9192/files/image?partcode='+getNestedValue(item, key.field)" width="100px" height="100px" alt="" />
           }
         </div>
         }
         @else if (key?.isCheckBox) {
-        <!-- <input type="checkbox" [checked]="getNestedValue(item, key.path)" (change)="onNewCheckEvent(item, key, $event)"> -->
-        <input type="number" [value]="getNestedValue(item, key.path) || 0" (blur)="onNewCheckEvent(item, key, $event)">
+        <input type="checkbox" [checked]="getNestedValue(item, key.field)"
+          (change)="onNewCheckEvent(item, key, $event)">
 
         }
+        @else if (key?.isInputText) {
+        <p-inputnumber [ngModel]="getNestedValue(item, key.field)" [showButtons]="true" buttonLayout="vertical"
+          spinnerMode="vertical" inputId="vertical" [inputStyle]="{ width: '3rem' }" [min]="0"
+          (ngModelChange)="onNewCheckEvent(item, key.field, $event)">
+          <ng-template #incrementbuttonicon>
+            <span class="pi pi-plus"></span>
+          </ng-template>
+          <ng-template #decrementbuttonicon>
+            <span class="pi pi-minus"></span>
+          </ng-template>
+        </p-inputnumber>
+        }
         @else {
-        {{getNestedValue(item, key.path)}}
+        @if (key.isDate) {
+        {{getNestedValue(item, key.field) | date : 'dd/MM/yyyy'}}
+        }
+        @else {
+        {{getNestedValue(item, key.field)}}
+        }
         }
       </td>
       }
     </tr>
   </ng-template>
   }
+  <ng-template pTemplate="footer">
+    <span class="text-secondary">
+      total de linhas: {{ data ? data.length : 0 }}
+    </span>
+  </ng-template>
+
 </p-table>
+@if (tableModel.ghostControll?.length) {
+<div>
+  <ul class="list list-unstyled">
+    @for (topic of tableModel.ghostControll; track $index) {
+    <li class="d-flex text-responsive align-items-center gap-2">{{topic.desc}}: <div
+        [ngStyle]="{'background-color': topic.color}" style="width: 10px; height: 10px;" class="rounded-circle border">
+      </div>
+    </li>
+    }
+  </ul>
+</div>
+}

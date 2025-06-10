@@ -9,7 +9,7 @@ async function bootstrap() {
     .addTag('BUFFER FORK')
     .build();
   const documentFactory = () => SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api/doc', app, documentFactory);
+  SwaggerModule.setup('api/doc', app, documentFactory, {raw: ['json', 'yaml']});
   app.enableCors();
   app.useGlobalInterceptors(new ClassSerializerInterceptor(app.get(Reflector)));
   app.useGlobalPipes(

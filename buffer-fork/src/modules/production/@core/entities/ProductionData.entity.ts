@@ -3,7 +3,7 @@ import { Production } from "./Production.entity";
 import { format } from "date-fns";
 import { TypeData } from "../enum/TypeData.enum";
 
-@Entity({ name: 'ProductionData' })
+@Entity({ name: 'ProductionData', synchronize: false})
 export class ProductionData {
     @PrimaryGeneratedColumn('increment')
     public ProductionDataID: number;

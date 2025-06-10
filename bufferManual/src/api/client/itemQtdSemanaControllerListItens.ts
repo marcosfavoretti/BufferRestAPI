@@ -3,7 +3,7 @@ import type { RequestConfig, ResponseErrorConfig } from '@kubb/plugin-client/cli
 import type { ItemQtdSemanaControllerListItensQueryResponse } from '../models/ItemQtdSemanaControllerListItens.ts'
 
 export function getItemQtdSemanaControllerListItensUrl() {
-  return `http://192.168.99.129:9192/item` as const
+  return `http://mercadosapi.prod.ethos/item` as const
 }
 
 /**

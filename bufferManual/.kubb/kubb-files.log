@@ -1,4 +1,4 @@
-[09/06/2025, 14:25:01]: {
+[10/06/2025, 13:58:21]: {
   "files": [
     {
       "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\index.ts",
@@ -19,6 +19,15 @@
             "BufferHistoricoDTO"
           ],
           "path": "./models/BufferHistoricoDTO.ts",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "ExcelControllerCompactBuffer2ExcelMethod201",
+            "ExcelControllerCompactBuffer2ExcelMethodMutationResponse",
+            "ExcelControllerCompactBuffer2ExcelMethodMutation"
+          ],
+          "path": "./models/ExcelControllerCompactBuffer2ExcelMethod.ts",
           "isTypeOnly": true
         },
         {
@@ -84,6 +93,13 @@
             "bufferControllerSaveBufferLog"
           ],
           "path": "./client/bufferControllerSaveBufferLog.ts"
+        },
+        {
+          "name": [
+            "getExcelControllerCompactBuffer2ExcelMethodUrl",
+            "excelControllerCompactBuffer2ExcelMethod"
+          ],
+          "path": "./client/excelControllerCompactBuffer2ExcelMethod.ts"
         },
         {
           "name": [
@@ -225,7 +241,7 @@
           "isTypeOnly": true,
           "isExportable": true,
           "isIndexable": true,
-          "value": "export type SaveBufferLogDto = {\n    /**\n     * @type string\n    */\n    item: string;\n    /**\n     * @type number\n    */\n    qtd: number;\n    /**\n     * @type number\n    */\n    idMercado: number;\n};"
+          "value": "export type SaveBufferLogDto = {\n    /**\n     * @type string\n    */\n    item: string;\n    /**\n     * @type number\n    */\n    qtd: number;\n    /**\n     * @type string\n    */\n    mercadoName: string;\n};"
         }
       ],
       "exports": [],
@@ -289,7 +305,7 @@
           "name": "saveBufferLogDto",
           "isExportable": false,
           "isIndexable": false,
-          "value": "{\"type\":\"object\",\"properties\":{\"item\":{\"type\":\"string\"},\"qtd\":{\"type\":\"number\"},\"idMercado\":{\"type\":\"number\"}},\"required\":[\"item\",\"qtd\",\"idMercado\"],\"x-readme-ref-name\":\"SaveBufferLogDto\"}"
+          "value": "{\"type\":\"object\",\"properties\":{\"item\":{\"type\":\"string\"},\"qtd\":{\"type\":\"number\"},\"mercadoName\":{\"type\":\"string\"}},\"required\":[\"item\",\"qtd\",\"mercadoName\"],\"x-readme-ref-name\":\"SaveBufferLogDto\"}"
         }
       ],
       "id": "407773c4f5de57259414c47bbf43baff8d8823f9",
@@ -388,7 +404,7 @@
           "name": "getBufferControllerSaveBufferLogUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getBufferControllerSaveBufferLogUrl() {\n  return `http://192.168.99.129:9192/buffer` as const\n}"
+          "value": "export function getBufferControllerSaveBufferLogUrl() {\n  return `http://mercadosapi.prod.ethos/buffer` as const\n}"
         },
         {
           "name": "bufferControllerSaveBufferLog",
@@ -488,7 +504,7 @@
           "name": "getItemQtdSemanaControllerListItensUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getItemQtdSemanaControllerListItensUrl() {\n  return `http://192.168.99.129:9192/item` as const\n}"
+          "value": "export function getItemQtdSemanaControllerListItensUrl() {\n  return `http://mercadosapi.prod.ethos/item` as const\n}"
         },
         {
           "name": "itemQtdSemanaControllerListItens",
@@ -596,7 +612,7 @@
           "name": "getSetoresControllerGetSetoresMethodUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getSetoresControllerGetSetoresMethodUrl() {\n  return `http://192.168.99.129:9192/setores` as const\n}"
+          "value": "export function getSetoresControllerGetSetoresMethodUrl() {\n  return `http://mercadosapi.prod.ethos/setores` as const\n}"
         },
         {
           "name": "setoresControllerGetSetoresMethod",
@@ -781,7 +797,7 @@
           "name": "getSetoresControllerGetSetorMercadoMethodUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getSetoresControllerGetSetorMercadoMethodUrl(setorId: SetoresControllerGetSetorMercadoMethodPathParams[\"setorId\"], dia: SetoresControllerGetSetorMercadoMethodPathParams[\"dia\"]) {\n  return `http://192.168.99.129:9192/setores/${setorId}/mercados/${dia}` as const\n}"
+          "value": "export function getSetoresControllerGetSetorMercadoMethodUrl(setorId: SetoresControllerGetSetorMercadoMethodPathParams[\"setorId\"], dia: SetoresControllerGetSetorMercadoMethodPathParams[\"dia\"]) {\n  return `http://mercadosapi.prod.ethos/setores/${setorId}/mercados/${dia}` as const\n}"
         },
         {
           "name": "setoresControllerGetSetorMercadoMethod",
@@ -828,6 +844,105 @@
       },
       "id": "7afc9ee11a597139a5452b858c2aafde7ebaaac7",
       "name": "setoresControllerGetSetorMercadoMethod",
+      "extname": ".ts"
+    },
+    {
+      "baseName": "ExcelControllerCompactBuffer2ExcelMethod.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ExcelControllerCompactBuffer2ExcelMethod.ts",
+      "sources": [
+        {
+          "name": "ExcelControllerCompactBuffer2ExcelMethod201",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type ExcelControllerCompactBuffer2ExcelMethod201 = any;"
+        },
+        {
+          "name": "ExcelControllerCompactBuffer2ExcelMethodMutationResponse",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type ExcelControllerCompactBuffer2ExcelMethodMutationResponse = ExcelControllerCompactBuffer2ExcelMethod201;"
+        },
+        {
+          "name": "ExcelControllerCompactBuffer2ExcelMethodMutation",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type ExcelControllerCompactBuffer2ExcelMethodMutation = {\n    Response: ExcelControllerCompactBuffer2ExcelMethod201;\n    Errors: any;\n};"
+        }
+      ],
+      "exports": [],
+      "imports": [],
+      "meta": {
+        "pluginKey": [
+          "plugin-ts",
+          1
+        ],
+        "name": "ExcelControllerCompactBuffer2ExcelMethod",
+        "group": {
+          "tag": "Excel",
+          "path": "/excel"
+        }
+      },
+      "id": "951b294d79ac371c1a013472cbba58fe738ca2d8",
+      "name": "ExcelControllerCompactBuffer2ExcelMethod",
+      "extname": ".ts"
+    },
+    {
+      "baseName": "excelControllerCompactBuffer2ExcelMethod.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\excelControllerCompactBuffer2ExcelMethod.ts",
+      "sources": [
+        {
+          "name": "getExcelControllerCompactBuffer2ExcelMethodUrl",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export function getExcelControllerCompactBuffer2ExcelMethodUrl() {\n  return `http://mercadosapi.prod.ethos/excel` as const\n}"
+        },
+        {
+          "name": "excelControllerCompactBuffer2ExcelMethod",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "/**\n * {@link /excel}\n */\nexport async function excelControllerCompactBuffer2ExcelMethod(config: Partial<RequestConfig> & { client?: typeof client } = {}) {\n  const { client:request = client, ...requestConfig } = config\n\nconst res = await request<ExcelControllerCompactBuffer2ExcelMethodMutationResponse, ResponseErrorConfig<Error>, unknown>({ method : \"POST\", url : getExcelControllerCompactBuffer2ExcelMethodUrl().toString(), ... requestConfig })\nreturn res.data\n}"
+        }
+      ],
+      "exports": [],
+      "imports": [
+        {
+          "name": "client",
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": false
+        },
+        {
+          "name": [
+            "RequestConfig",
+            "ResponseErrorConfig"
+          ],
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "ExcelControllerCompactBuffer2ExcelMethodMutationResponse"
+          ],
+          "root": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\excelControllerCompactBuffer2ExcelMethod.ts",
+          "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ExcelControllerCompactBuffer2ExcelMethod.ts",
+          "isTypeOnly": true
+        }
+      ],
+      "meta": {
+        "pluginKey": [
+          "plugin-client",
+          1
+        ],
+        "name": "excelControllerCompactBuffer2ExcelMethod",
+        "group": {
+          "tag": "Excel",
+          "path": "/excel"
+        }
+      },
+      "id": "7c22ad4066f24bc161aafa20f8ac66b1408f4beb",
+      "name": "excelControllerCompactBuffer2ExcelMethod",
       "extname": ".ts"
     }
   ]

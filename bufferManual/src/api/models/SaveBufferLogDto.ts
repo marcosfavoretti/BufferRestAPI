@@ -8,7 +8,7 @@ export type SaveBufferLogDto = {
    */
   qtd: number
   /**
-   * @type number
+   * @type string
    */
   mercadoName: string
 }

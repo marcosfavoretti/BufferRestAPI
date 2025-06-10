@@ -3,7 +3,7 @@ import type { RequestConfig, ResponseErrorConfig } from '@kubb/plugin-client/cli
 import type { SetoresControllerGetSetoresMethodQueryResponse } from '../models/SetoresControllerGetSetoresMethod.ts'
 
 export function getSetoresControllerGetSetoresMethodUrl() {
-  return `http://192.168.99.129:9192/setores` as const
+  return `http://mercadosapi.prod.ethos/setores` as const
 }
 
 /**

@@ -5,6 +5,11 @@ export type {
   BufferControllerSaveBufferLogMutation,
 } from './models/BufferControllerSaveBufferLog.ts'
 export type { BufferHistoricoDTO } from './models/BufferHistoricoDTO.ts'
+export type {
+  ExcelControllerCompactBuffer2ExcelMethod201,
+  ExcelControllerCompactBuffer2ExcelMethodMutationResponse,
+  ExcelControllerCompactBuffer2ExcelMethodMutation,
+} from './models/ExcelControllerCompactBuffer2ExcelMethod.ts'
 export type { ItemDto } from './models/ItemDto.ts'
 export type {
   ItemQtdSemanaControllerListItens200,
@@ -26,6 +31,7 @@ export type {
   SetoresControllerGetSetorMercadoMethodQuery,
 } from './models/SetoresControllerGetSetorMercadoMethod.ts'
 export { getBufferControllerSaveBufferLogUrl, bufferControllerSaveBufferLog } from './client/bufferControllerSaveBufferLog'
+export { getExcelControllerCompactBuffer2ExcelMethodUrl, excelControllerCompactBuffer2ExcelMethod } from './client/excelControllerCompactBuffer2ExcelMethod'
 export { getItemQtdSemanaControllerListItensUrl, itemQtdSemanaControllerListItens } from './client/itemQtdSemanaControllerListItens'
 export { getSetoresControllerGetSetoresMethodUrl, setoresControllerGetSetoresMethod } from './client/setoresControllerGetSetoresMethod'
 export { getSetoresControllerGetSetorMercadoMethodUrl, setoresControllerGetSetorMercadoMethod } from './client/setoresControllerGetSetorMercadoMethod'

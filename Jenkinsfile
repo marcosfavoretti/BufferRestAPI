@@ -14,7 +14,7 @@ pipeline {
                             $class: 'GitSCM', 
                             branches: [[name: '*/main']], 
                             userRemoteConfigs: [[ 
-                                url: REPO_FRONT, 
+                                url: REPO, 
                                 credentialsId: 'github-ssh-key' 
                             ]]
                         ])

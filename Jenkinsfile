@@ -28,9 +28,10 @@ pipeline {
                 script {
                     sh '''
                     cd APPLICATION
-                    docker build -t ./buffer-fork/fiberlaserfront .
-
-                    docker build -t ./bufferManual/fiberlaserapi .
+                    cd buffer-fork
+                    docker build -t bufferAPI .
+                    cd ../bufferManual
+                    docker build -t bufferFront .
                     '''
                 }
             }

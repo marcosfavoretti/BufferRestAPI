@@ -14,12 +14,19 @@ export class CompactBufferDataService {
                 SELECT BH000.serverTime,
                 BH000.Item,
                 BH000.tipo_item,
-                BH000.ItemFilho,
+				TRE.Planilha,
                 BH110.[CORREDOR DE SOLDA], BH110.[LIXA], BH110.[GATE SOLDA], BH110.[MERCADO BANHO], BH110.[LINHA DE PINTURA], BH110.[PINTURA], BH000.[MONTAGEM], BH000.[LINHA DE MONTAGEM], BH000.[LIBERADA], BH000.[RETRABALHO S/ PORTA], BH000.[RETRABALHO MONTAGEM], BH000.[RETRABALHO SOLDA], BH000.[RETRABALHO PINTURA], BH000.[INSPEÇÃO], BH000.[BANHO]    
 				FROM vw_bufferhistorico BH000
 				LEFT JOIN vw_bufferhist110 BH110
 				on BH000.ItemFilho = BH110.Item
-				where BH000.Montagem IS NOT NULL
+				left join Temp_excel_Relation TRE
+				ON BH000.tipo_item = TRE.Apelido
+				WHERE BH000.Montagem IS NOT NULL
+				group by BH000.serverTime,
+                BH000.Item,
+                BH000.tipo_item,
+				TRE.Planilha,
+                BH110.[CORREDOR DE SOLDA], BH110.[LIXA], BH110.[GATE SOLDA], BH110.[MERCADO BANHO], BH110.[LINHA DE PINTURA], BH110.[PINTURA], BH000.[MONTAGEM], BH000.[LINHA DE MONTAGEM], BH000.[LIBERADA], BH000.[RETRABALHO S/ PORTA], BH000.[RETRABALHO MONTAGEM], BH000.[RETRABALHO SOLDA], BH000.[RETRABALHO PINTURA], BH000.[INSPEÇÃO], BH000.[BANHO]
                 `)
         } catch (error) {
             throw new FalhaAoCompactarDadoException();

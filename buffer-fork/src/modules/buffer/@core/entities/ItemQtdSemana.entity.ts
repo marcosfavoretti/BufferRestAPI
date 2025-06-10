@@ -1,12 +1,10 @@
 import { Column, Entity, OneToMany, PrimaryColumn } from "typeorm";
 import { BufferHistorico } from "./BufferHistorico.entity";
-import { Exclude, Expose } from "class-transformer";
-import { format } from "date-fns";
 
 // @Entity({ name: 'ETHOS_MET_NCSSP4.dbo.item_x_qtdsemana', synchronize: false })
-@Entity({ name: 'item_x_qtdsemana', synchronize: true })
+@Entity({ name: 'item_x_qtdsemana', synchronize: false })
 export class ItemQtdSemana {
-    @PrimaryColumn()
+    @PrimaryColumn({default: 'MODELO'})
     public Item: string; // Armazena como string no banco
 
     @Column('varchar')

@@ -1,7 +1,7 @@
 
 
 import { Inject, Logger } from "@nestjs/common";
-import { Cron } from "@nestjs/schedule";
+import { Cron, CronExpression } from "@nestjs/schedule";
 import { BufferHistoricoBuilder } from "src/modules/buffer/@core/builder/BufferHistorico.builder";
 import { ItemQtdSemana } from "src/modules/buffer/@core/entities/ItemQtdSemana.entity";
 import { CONSULTA } from "src/modules/buffer/enum/CONSULTA.enum";
@@ -20,7 +20,7 @@ export class IniciaNovoDiaJob {
     @Inject(GerenciaBuffersService) private gerenciaBufferService: GerenciaBuffersService,
   ) {}
 
-  @Cron('45 50 07 * * *', {
+  @Cron(CronExpression.EVERY_DAY_AT_MIDNIGHT, {
     name: jobName,
   })
   async job(): Promise<void> {

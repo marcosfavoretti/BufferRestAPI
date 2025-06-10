@@ -14,7 +14,7 @@ config();
             username: process.env.MYSQLDATABASEUSER,
             password: process.env.MYSQLDATABASENHA,
             host: process.env.MYSQLDATABASEHOST,
-            synchronize: true,
+            synchronize: false,
             options: {
                 trustServerCertificate: true,
                 cancelTimeout: 1000*60,
@@ -24,7 +24,6 @@ config();
             entities: [
                 path.resolve(__dirname, '../modules/**/@core/entities/*.entity{.ts,.js}')
             ]
-    
         })
     ],
 })

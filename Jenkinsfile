@@ -59,6 +59,8 @@ services:
       - HOST=${HOST}
       - PORT=${PORT}
     restart: always
+    volumes:
+      - /mnt/compartilhamento_rede:/app/dados_rede
     
   frontend:
     image: bufferfront

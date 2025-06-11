@@ -60,8 +60,7 @@ showPopUpComponent<T>(component: any, inputs?: Partial<T>): NgbModalRef {
           errorRef.result.catch(() => {
             console.log('ErroPopupComponent foi fechado.');
           });
-          console.log(err);
-          errorRef.componentInstance.erroMessage = err.response?.data?.message ;
+          errorRef.componentInstance.erroMessage = err.response?.data?.message || `${err.code} ${err.message}` ;
           errorRef.componentInstance.erroMessageErr = err.response?.data?.error ;
           errorRef.componentInstance.closeButtonFn = () => errorRef.close(); // Passa a função de fechar para o input closeButtonFn
           return of(null);

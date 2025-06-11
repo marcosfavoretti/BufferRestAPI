@@ -27,12 +27,13 @@ export class SetoresTablesComponent implements OnInit {
   data2Display: any[] = []
   colunasAdicionais: string[] = [];
 
-  updateRequire(event: any):void{
-    this.apiService.saveLog({
+  updateRequire(event: any): void {
+    const update$ = this.apiService.saveLog({
       item: event.row.item,
       qtd: event.row[event.column],
       mercadoName: event.column
     })
+    this.popupservice.showWhile(update$);
   }
 
   ngOnInit(): void {
@@ -48,10 +49,10 @@ export class SetoresTablesComponent implements OnInit {
     this.colunasAdicionais = res.map(p => p.nome);
     const itensUnicos = Array.from(
       new Map(
-      res
-        .flatMap(r2 => r2.histBuffer)
-        .filter(i => i.item && i.item.Item) // garante que existe i.item e i.item.item
-        .map(i => [i.item.Item, i.item]) // usa i.item.item como chave, i.item como valor
+        res
+          .flatMap(r2 => r2.histBuffer)
+          .filter(i => i.item && i.item.Item) // garante que existe i.item e i.item.item
+          .map(i => [i.item.Item, i.item]) // usa i.item.item como chave, i.item como valor
       ).values()
     );
     for (const item of itensUnicos) {

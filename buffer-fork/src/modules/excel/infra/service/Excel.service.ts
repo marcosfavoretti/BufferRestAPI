@@ -69,20 +69,25 @@ export class ExcelService {
      * Adiciona dados ao final da aba existente (sem cabeçalhos).
      */
     appendDataToEnd<T extends object>(workbook: ExcelJS.Workbook, data: T[], sheetName: string): ExcelJS.Workbook {
+        if (data.length === 0) {
+            return workbook; // Não faz nada se não houver dados
+        }
         let sheet = workbook.getWorksheet(sheetName);
         if (!sheet) {
             sheet = workbook.addWorksheet(sheetName);
-            sheet.columns = Object.keys(data[0] || {}).map(key => ({
-                header: key,
-                key,
+            sheet.columns = Object.keys(data[0]).map(key => ({
+                header: key, // O texto que aparece no cabeçalho
+                key: key,    // O identificador da coluna
                 width: 20
             }));
         }
-
+        if (!sheet.columns || sheet.columns.length === 0) {
+            sheet.columns = Object.keys(data[0]).map(key => ({ header: key, key: key }));
+        }
+        console.log(`Adicionando ${data.length} linhas na aba ${sheetName}`);
         data.forEach(item => {
-            sheet!.addRow(item);
+            sheet.addRow(Object.values(item));
         });
-
         return workbook;
     }
 

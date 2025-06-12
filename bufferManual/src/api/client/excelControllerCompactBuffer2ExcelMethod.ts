@@ -3,7 +3,7 @@ import type { RequestConfig, ResponseErrorConfig } from '@kubb/plugin-client/cli
 import type { ExcelControllerCompactBuffer2ExcelMethodMutationResponse } from '../models/ExcelControllerCompactBuffer2ExcelMethod.ts'
 
 export function getExcelControllerCompactBuffer2ExcelMethodUrl() {
-  return `http://192.168.99.129:9192/excel` as const
+  return `http://mercadosapi.prod.ethos/excel` as const
 }
 
 /**

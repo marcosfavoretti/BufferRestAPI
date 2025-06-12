@@ -1,0 +1,552 @@
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-oas.1 | buildStart
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | buildStart
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-client.1 | buildStart
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SaveBufferLogDto' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SaveBufferLogDto' and type 'function' |  "SaveBufferLogDto"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SaveBufferLogDto' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SaveBufferLogDto' and type 'type' |  "SaveBufferLogDto"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SaveBufferLogDto' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SaveBufferLogDto' and type 'file' |  "SaveBufferLogDto"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'SaveBufferLogDto.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'SaveBufferLogDto.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SaveBufferLogDto.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ResSetorDTO' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ResSetorDTO' and type 'function' |  "ResSetorDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ResSetorDTO' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ResSetorDTO' and type 'type' |  "ResSetorDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ResSetorDTO' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ResSetorDTO' and type 'file' |  "ResSetorDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ResSetorDTO.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ResSetorDTO.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ResSetorDTO.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemDto' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemDto' and type 'function' |  "ItemDto"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemDto' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemDto' and type 'type' |  "ItemDto"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemDto' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemDto' and type 'file' |  "ItemDto"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ItemDto.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ItemDto.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ItemDto.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemDto' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemDto' and type 'function' |  "ItemDto"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemDto' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemDto' and type 'file' |  "ItemDto"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ItemDto.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ItemDto.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ItemDto.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferHistoricoDTO' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferHistoricoDTO' and type 'function' |  "BufferHistoricoDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferHistoricoDTO' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferHistoricoDTO' and type 'type' |  "BufferHistoricoDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferHistoricoDTO' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferHistoricoDTO' and type 'file' |  "BufferHistoricoDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferHistoricoDTO.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferHistoricoDTO.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferHistoricoDTO.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTOConsultaEnum' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTOConsultaEnum' and type 'type' |  "ResMercadosIntermediarioDoSetorDTOConsultaEnum"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferHistoricoDTO' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferHistoricoDTO' and type 'function' |  "BufferHistoricoDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferHistoricoDTO' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferHistoricoDTO' and type 'file' |  "BufferHistoricoDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferHistoricoDTO.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferHistoricoDTO.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferHistoricoDTO.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTO' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTO' and type 'function' |  "ResMercadosIntermediarioDoSetorDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTO' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTO' and type 'type' |  "ResMercadosIntermediarioDoSetorDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTO' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTO' and type 'file' |  "ResMercadosIntermediarioDoSetorDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ResMercadosIntermediarioDoSetorDTO.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ResMercadosIntermediarioDoSetorDTO.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ResMercadosIntermediarioDoSetorDTO.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'file' |  "ExcelControllerCompactBuffer2ExcelMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ExcelControllerCompactBuffer2ExcelMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ExcelControllerCompactBuffer2ExcelMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ExcelControllerCompactBuffer2ExcelMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'undefined' |  "ExcelControllerCompactBuffer2ExcelMethod201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethodMutationResponse' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethodMutationResponse' and type 'undefined' |  "ExcelControllerCompactBuffer2ExcelMethodMutationResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'undefined' |  "ExcelControllerCompactBuffer2ExcelMethod201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'function' |  "ExcelControllerCompactBuffer2ExcelMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'type' |  "ExcelControllerCompactBuffer2ExcelMethod201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'type' |  "ExcelControllerCompactBuffer2ExcelMethod201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod' and type 'file' |  "ExcelControllerCompactBuffer2ExcelMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ExcelControllerCompactBuffer2ExcelMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ExcelControllerCompactBuffer2ExcelMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ExcelControllerCompactBuffer2ExcelMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'function' |  "ExcelControllerCompactBuffer2ExcelMethod201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'file' |  "ExcelControllerCompactBuffer2ExcelMethod201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ExcelControllerCompactBuffer2ExcelMethod201.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ExcelControllerCompactBuffer2ExcelMethod201.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ExcelControllerCompactBuffer2ExcelMethod201.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethodMutationResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethodMutationResponse' and type 'type' |  "ExcelControllerCompactBuffer2ExcelMethodMutationResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethodMutationResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethodMutationResponse' and type 'type' |  "ExcelControllerCompactBuffer2ExcelMethodMutationResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod' and type 'file' |  "ExcelControllerCompactBuffer2ExcelMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ExcelControllerCompactBuffer2ExcelMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ExcelControllerCompactBuffer2ExcelMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ExcelControllerCompactBuffer2ExcelMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'function' |  "ExcelControllerCompactBuffer2ExcelMethod201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' BufferController_saveBufferLog ' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' BufferController_saveBufferLog ' and type 'file' |  "BufferControllerSaveBufferLog"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerSaveBufferLog.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'undefined' |  "BufferControllerSaveBufferLog201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'undefined' |  "BufferControllerSaveBufferLogMutationRequest"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationResponse' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationResponse' and type 'undefined' |  "BufferControllerSaveBufferLogMutationResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'undefined' |  "BufferControllerSaveBufferLog201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' BufferController_saveBufferLog ' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' BufferController_saveBufferLog ' and type 'function' |  "BufferControllerSaveBufferLog"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'type' |  "BufferControllerSaveBufferLog201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'type' |  "BufferControllerSaveBufferLog201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog' and type 'file' |  "BufferControllerSaveBufferLog"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerSaveBufferLog.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SaveBufferLogDto' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SaveBufferLogDto' and type 'function' |  "SaveBufferLogDto"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SaveBufferLogDto' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SaveBufferLogDto' and type 'file' |  "SaveBufferLogDto"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'SaveBufferLogDto.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'SaveBufferLogDto.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SaveBufferLogDto.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'type' |  "BufferControllerSaveBufferLogMutationRequest"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'type' |  "BufferControllerSaveBufferLogMutationRequest"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog' and type 'file' |  "BufferControllerSaveBufferLog"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerSaveBufferLog.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'function' |  "BufferControllerSaveBufferLog201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'file' |  "BufferControllerSaveBufferLog201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog201.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog201.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerSaveBufferLog201.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationResponse' and type 'type' |  "BufferControllerSaveBufferLogMutationResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationResponse' and type 'type' |  "BufferControllerSaveBufferLogMutationResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog' and type 'file' |  "BufferControllerSaveBufferLog"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerSaveBufferLog.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'function' |  "BufferControllerSaveBufferLog201"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'function' |  "BufferControllerSaveBufferLogMutationRequest"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'file' |  "BufferControllerConsultBufferMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerConsultBufferMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'undefined' |  "BufferControllerConsultBufferMethod200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'undefined' |  "BufferControllerConsultBufferMethodQueryParams"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryResponse' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryResponse' and type 'undefined' |  "BufferControllerConsultBufferMethodQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'undefined' |  "BufferControllerConsultBufferMethod200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'function' |  "BufferControllerConsultBufferMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'type' |  "BufferControllerConsultBufferMethodQueryParams"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'type' |  "BufferControllerConsultBufferMethodQueryParams"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod' and type 'file' |  "BufferControllerConsultBufferMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerConsultBufferMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'type' |  "BufferControllerConsultBufferMethod200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'type' |  "BufferControllerConsultBufferMethod200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod' and type 'file' |  "BufferControllerConsultBufferMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerConsultBufferMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'function' |  "BufferControllerConsultBufferMethod200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'file' |  "BufferControllerConsultBufferMethod200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod200.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod200.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerConsultBufferMethod200.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryResponse' and type 'type' |  "BufferControllerConsultBufferMethodQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryResponse' and type 'type' |  "BufferControllerConsultBufferMethodQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod' and type 'file' |  "BufferControllerConsultBufferMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerConsultBufferMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'function' |  "BufferControllerConsultBufferMethod200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'function' |  "BufferControllerConsultBufferMethodQueryParams"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'file' |  "ItemQtdSemanaControllerListItens"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ItemQtdSemanaControllerListItens.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ItemQtdSemanaControllerListItens.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ItemQtdSemanaControllerListItens.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'undefined' |  "ItemQtdSemanaControllerListItens200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItensQueryResponse' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItensQueryResponse' and type 'undefined' |  "ItemQtdSemanaControllerListItensQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'undefined' |  "ItemQtdSemanaControllerListItens200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'function' |  "ItemQtdSemanaControllerListItens"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'type' |  "ItemQtdSemanaControllerListItens200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'type' |  "ItemQtdSemanaControllerListItens200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens' and type 'file' |  "ItemQtdSemanaControllerListItens"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ItemQtdSemanaControllerListItens.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ItemQtdSemanaControllerListItens.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ItemQtdSemanaControllerListItens.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'function' |  "ItemQtdSemanaControllerListItens200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'file' |  "ItemQtdSemanaControllerListItens200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ItemQtdSemanaControllerListItens200.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ItemQtdSemanaControllerListItens200.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ItemQtdSemanaControllerListItens200.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItensQueryResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItensQueryResponse' and type 'type' |  "ItemQtdSemanaControllerListItensQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItensQueryResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItensQueryResponse' and type 'type' |  "ItemQtdSemanaControllerListItensQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens' and type 'file' |  "ItemQtdSemanaControllerListItens"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ItemQtdSemanaControllerListItens.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ItemQtdSemanaControllerListItens.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ItemQtdSemanaControllerListItens.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'function' |  "ItemQtdSemanaControllerListItens200"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'file' |  "SetoresControllerGetSetoresMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetoresMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetoresMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetoresMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodError' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodError' and type 'undefined' |  "SetoresControllerGetSetoresMethodError"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodQueryResponse' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodQueryResponse' and type 'undefined' |  "SetoresControllerGetSetoresMethodQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'function' |  "SetoresControllerGetSetoresMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ResSetorDTO' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ResSetorDTO' and type 'function' |  "ResSetorDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ResSetorDTO' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ResSetorDTO' and type 'file' |  "ResSetorDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ResSetorDTO.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ResSetorDTO.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ResSetorDTO.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodError' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodError' and type 'type' |  "SetoresControllerGetSetoresMethodError"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodError' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodError' and type 'type' |  "SetoresControllerGetSetoresMethodError"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethod' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethod' and type 'file' |  "SetoresControllerGetSetoresMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetoresMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetoresMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetoresMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodQueryResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodQueryResponse' and type 'type' |  "SetoresControllerGetSetoresMethodQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodQueryResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodQueryResponse' and type 'type' |  "SetoresControllerGetSetoresMethodQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethod' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethod' and type 'file' |  "SetoresControllerGetSetoresMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetoresMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetoresMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetoresMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'file' |  "SetoresControllerGetSetorMercadoMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetorMercadoMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetorMercadoMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetorMercadoMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodError' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodError' and type 'undefined' |  "SetoresControllerGetSetorMercadoMethodError"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'undefined' |  "SetoresControllerGetSetorMercadoMethodPathParams"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodQueryResponse' and type 'undefined'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodQueryResponse' and type 'undefined' |  "SetoresControllerGetSetorMercadoMethodQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'function' |  "SetoresControllerGetSetorMercadoMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'type' |  "SetoresControllerGetSetorMercadoMethodPathParams"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'type' |  "SetoresControllerGetSetorMercadoMethodPathParams"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethod' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethod' and type 'file' |  "SetoresControllerGetSetorMercadoMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetorMercadoMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetorMercadoMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetorMercadoMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTO' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTO' and type 'function' |  "ResMercadosIntermediarioDoSetorDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTO' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'ResMercadosIntermediarioDoSetorDTO' and type 'file' |  "ResMercadosIntermediarioDoSetorDTO"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'ResMercadosIntermediarioDoSetorDTO.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'ResMercadosIntermediarioDoSetorDTO.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ResMercadosIntermediarioDoSetorDTO.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodError' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodError' and type 'type' |  "SetoresControllerGetSetorMercadoMethodError"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodError' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodError' and type 'type' |  "SetoresControllerGetSetorMercadoMethodError"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethod' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethod' and type 'file' |  "SetoresControllerGetSetorMercadoMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetorMercadoMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetorMercadoMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetorMercadoMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodQueryResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodQueryResponse' and type 'type' |  "SetoresControllerGetSetorMercadoMethodQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodQueryResponse' and type 'type'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodQueryResponse' and type 'type' |  "SetoresControllerGetSetorMercadoMethodQueryResponse"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethod' and type 'file'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethod' and type 'file' |  "SetoresControllerGetSetorMercadoMethod"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetorMercadoMethod.ts'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetorMercadoMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetorMercadoMethod.ts"
+[12/06/2025, 11:48:39]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'function'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'function' |  "SetoresControllerGetSetorMercadoMethodPathParams"
+[12/06/2025, 11:48:39]: Start barrel generation for pluginKey plugin-ts.1 and root 'C:\workspace\bufferFork\bufferManual\src\api\models'
+[12/06/2025, 11:48:39]: Executed pluginKey plugin-ts.1 | buildStart |  undefined
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-oas.1 | Resolving path 'saveBufferLogDto.json'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-oas.1 | Resolving path 'saveBufferLogDto.json' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\schemas\\saveBufferLogDto.json"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-oas.1 | Resolving path 'resSetorDTO.json'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-oas.1 | Resolving path 'resSetorDTO.json' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\schemas\\resSetorDTO.json"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-oas.1 | Resolving path 'itemDto.json'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-oas.1 | Resolving path 'itemDto.json' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\schemas\\itemDto.json"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-oas.1 | Resolving path 'bufferHistoricoDTO.json'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-oas.1 | Resolving path 'bufferHistoricoDTO.json' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\schemas\\bufferHistoricoDTO.json"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-oas",1]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'ResMercadosIntermediarioDoSetorDTOConsulta' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'ResMercadosIntermediarioDoSetorDTOConsulta' and type 'type' |  "ResMercadosIntermediarioDoSetorDTOConsulta"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-oas.1 | Resolving path 'resMercadosIntermediarioDoSetorDTO.json'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-oas.1 | Resolving path 'resMercadosIntermediarioDoSetorDTO.json' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\schemas\\resMercadosIntermediarioDoSetorDTO.json"
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-oas.1 | buildStart |  undefined
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'function' |  "excelControllerCompactBuffer2ExcelMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'file' |  "excelControllerCompactBuffer2ExcelMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'excelControllerCompactBuffer2ExcelMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'excelControllerCompactBuffer2ExcelMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\excelControllerCompactBuffer2ExcelMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name 'get ExcelController_compactBuffer2ExcelMethod url' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name 'get ExcelController_compactBuffer2ExcelMethod url' and type 'function' |  "getExcelControllerCompactBuffer2ExcelMethodUrl"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'file' |  "excelControllerCompactBuffer2ExcelMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'excelControllerCompactBuffer2ExcelMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'excelControllerCompactBuffer2ExcelMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\excelControllerCompactBuffer2ExcelMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'file' |  "ExcelControllerCompactBuffer2ExcelMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving path 'ExcelControllerCompactBuffer2ExcelMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving path 'ExcelControllerCompactBuffer2ExcelMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ExcelControllerCompactBuffer2ExcelMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'type' |  "ExcelControllerCompactBuffer2ExcelMethod201"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethodMutationResponse' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethodMutationResponse' and type 'type' |  "ExcelControllerCompactBuffer2ExcelMethodMutationResponse"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'type' |  "ExcelControllerCompactBuffer2ExcelMethod201"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name ' ExcelController_compactBuffer2ExcelMethod ' and type 'file' |  "ExcelController_compactBuffer2ExcelMethod"
+[12/06/2025, 11:48:40]: No hook 'resolvePath' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving path 'ExcelController_compactBuffer2ExcelMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving path 'ExcelController_compactBuffer2ExcelMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\ExcelController_compactBuffer2ExcelMethod.ts"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'function' |  "ExcelControllerCompactBuffer2ExcelMethod201"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethodMutationResponse' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethodMutationResponse' and type 'function' |  "ExcelControllerCompactBuffer2ExcelMethodMutationResponse"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'ExcelControllerCompactBuffer2ExcelMethod201' and type 'function' |  "ExcelControllerCompactBuffer2ExcelMethod201"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' BufferController_saveBufferLog ' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' BufferController_saveBufferLog ' and type 'function' |  "bufferControllerSaveBufferLog"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' BufferController_saveBufferLog ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' BufferController_saveBufferLog ' and type 'file' |  "bufferControllerSaveBufferLog"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'bufferControllerSaveBufferLog.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'bufferControllerSaveBufferLog.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\bufferControllerSaveBufferLog.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name 'get BufferController_saveBufferLog url' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name 'get BufferController_saveBufferLog url' and type 'function' |  "getBufferControllerSaveBufferLogUrl"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' BufferController_saveBufferLog ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' BufferController_saveBufferLog ' and type 'file' |  "bufferControllerSaveBufferLog"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'bufferControllerSaveBufferLog.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'bufferControllerSaveBufferLog.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\bufferControllerSaveBufferLog.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name ' BufferController_saveBufferLog ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name ' BufferController_saveBufferLog ' and type 'file' |  "BufferControllerSaveBufferLog"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerSaveBufferLog.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerSaveBufferLog.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'type' |  "BufferControllerSaveBufferLog201"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'type' |  "BufferControllerSaveBufferLogMutationRequest"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationResponse' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLogMutationResponse' and type 'type' |  "BufferControllerSaveBufferLogMutationResponse"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerSaveBufferLog201' and type 'type' |  "BufferControllerSaveBufferLog201"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name ' BufferController_saveBufferLog ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name ' BufferController_saveBufferLog ' and type 'file' |  "BufferController_saveBufferLog"
+[12/06/2025, 11:48:40]: No hook 'resolvePath' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving path 'BufferController_saveBufferLog.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving path 'BufferController_saveBufferLog.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\BufferController_saveBufferLog.ts"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'BufferControllerSaveBufferLog201' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'BufferControllerSaveBufferLog201' and type 'function' |  "BufferControllerSaveBufferLog201"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'BufferControllerSaveBufferLogMutationRequest' and type 'function' |  "BufferControllerSaveBufferLogMutationRequest"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'BufferControllerSaveBufferLogMutationResponse' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'BufferControllerSaveBufferLogMutationResponse' and type 'function' |  "BufferControllerSaveBufferLogMutationResponse"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'BufferControllerSaveBufferLog201' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'BufferControllerSaveBufferLog201' and type 'function' |  "BufferControllerSaveBufferLog201"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'function' |  "bufferControllerConsultBufferMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'file' |  "bufferControllerConsultBufferMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'bufferControllerConsultBufferMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'bufferControllerConsultBufferMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\bufferControllerConsultBufferMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name 'get BufferController_consultBufferMethod url' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name 'get BufferController_consultBufferMethod url' and type 'function' |  "getBufferControllerConsultBufferMethodUrl"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'file' |  "bufferControllerConsultBufferMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'bufferControllerConsultBufferMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'bufferControllerConsultBufferMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\bufferControllerConsultBufferMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name ' BufferController_consultBufferMethod ' and type 'file' |  "BufferControllerConsultBufferMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving path 'BufferControllerConsultBufferMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerConsultBufferMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'type' |  "BufferControllerConsultBufferMethod200"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'type' |  "BufferControllerConsultBufferMethodQueryParams"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryResponse' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethodQueryResponse' and type 'type' |  "BufferControllerConsultBufferMethodQueryResponse"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'type' |  "BufferControllerConsultBufferMethod200"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name ' BufferController_consultBufferMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name ' BufferController_consultBufferMethod ' and type 'file' |  "BufferController_consultBufferMethod"
+[12/06/2025, 11:48:40]: No hook 'resolvePath' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving path 'BufferController_consultBufferMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving path 'BufferController_consultBufferMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\BufferController_consultBufferMethod.ts"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'function' |  "BufferControllerConsultBufferMethod200"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'BufferControllerConsultBufferMethodQueryParams' and type 'function' |  "BufferControllerConsultBufferMethodQueryParams"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'BufferControllerConsultBufferMethodQueryResponse' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'BufferControllerConsultBufferMethodQueryResponse' and type 'function' |  "BufferControllerConsultBufferMethodQueryResponse"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'BufferControllerConsultBufferMethod200' and type 'function' |  "BufferControllerConsultBufferMethod200"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'function' |  "itemQtdSemanaControllerListItens"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'file' |  "itemQtdSemanaControllerListItens"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'itemQtdSemanaControllerListItens.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'itemQtdSemanaControllerListItens.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\itemQtdSemanaControllerListItens.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name 'get ItemQtdSemanaController_listItens url' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name 'get ItemQtdSemanaController_listItens url' and type 'function' |  "getItemQtdSemanaControllerListItensUrl"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'file' |  "itemQtdSemanaControllerListItens"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'itemQtdSemanaControllerListItens.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'itemQtdSemanaControllerListItens.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\itemQtdSemanaControllerListItens.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'file' |  "ItemQtdSemanaControllerListItens"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving path 'ItemQtdSemanaControllerListItens.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving path 'ItemQtdSemanaControllerListItens.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\ItemQtdSemanaControllerListItens.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'type' |  "ItemQtdSemanaControllerListItens200"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItensQueryResponse' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItensQueryResponse' and type 'type' |  "ItemQtdSemanaControllerListItensQueryResponse"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'type' |  "ItemQtdSemanaControllerListItens200"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name ' ItemQtdSemanaController_listItens ' and type 'file' |  "ItemQtdSemanaController_listItens"
+[12/06/2025, 11:48:40]: No hook 'resolvePath' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving path 'ItemQtdSemanaController_listItens.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving path 'ItemQtdSemanaController_listItens.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\ItemQtdSemanaController_listItens.ts"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'function' |  "ItemQtdSemanaControllerListItens200"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'ItemQtdSemanaControllerListItensQueryResponse' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'ItemQtdSemanaControllerListItensQueryResponse' and type 'function' |  "ItemQtdSemanaControllerListItensQueryResponse"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'ItemQtdSemanaControllerListItens200' and type 'function' |  "ItemQtdSemanaControllerListItens200"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'function' |  "setoresControllerGetSetoresMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'file' |  "setoresControllerGetSetoresMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'setoresControllerGetSetoresMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'setoresControllerGetSetoresMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\setoresControllerGetSetoresMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name 'get SetoresController_getSetoresMethod url' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name 'get SetoresController_getSetoresMethod url' and type 'function' |  "getSetoresControllerGetSetoresMethodUrl"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'file' |  "setoresControllerGetSetoresMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'setoresControllerGetSetoresMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'setoresControllerGetSetoresMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\setoresControllerGetSetoresMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetoresMethod ' and type 'file' |  "SetoresControllerGetSetoresMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetoresMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetoresMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetoresMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodError' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodError' and type 'type' |  "SetoresControllerGetSetoresMethodError"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodQueryResponse' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetoresMethodQueryResponse' and type 'type' |  "SetoresControllerGetSetoresMethodQueryResponse"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name ' SetoresController_getSetoresMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name ' SetoresController_getSetoresMethod ' and type 'file' |  "SetoresController_getSetoresMethod"
+[12/06/2025, 11:48:40]: No hook 'resolvePath' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving path 'SetoresController_getSetoresMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving path 'SetoresController_getSetoresMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\SetoresController_getSetoresMethod.ts"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'SetoresControllerGetSetoresMethodError' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'SetoresControllerGetSetoresMethodError' and type 'function' |  "SetoresControllerGetSetoresMethodError"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'SetoresControllerGetSetoresMethodQueryResponse' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'SetoresControllerGetSetoresMethodQueryResponse' and type 'function' |  "SetoresControllerGetSetoresMethodQueryResponse"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'function' |  "setoresControllerGetSetorMercadoMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'file' |  "setoresControllerGetSetorMercadoMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'setoresControllerGetSetorMercadoMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'setoresControllerGetSetorMercadoMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\setoresControllerGetSetorMercadoMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name 'get SetoresController_getSetorMercadoMethod url' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name 'get SetoresController_getSetorMercadoMethod url' and type 'function' |  "getSetoresControllerGetSetorMercadoMethodUrl"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'file' |  "setoresControllerGetSetorMercadoMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-client.1 | Resolving path 'setoresControllerGetSetorMercadoMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | Resolving path 'setoresControllerGetSetorMercadoMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\setoresControllerGetSetorMercadoMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'file' |  "SetoresControllerGetSetorMercadoMethod"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetorMercadoMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving path 'SetoresControllerGetSetorMercadoMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\SetoresControllerGetSetorMercadoMethod.ts"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodError' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodError' and type 'type' |  "SetoresControllerGetSetorMercadoMethodError"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'type' |  "SetoresControllerGetSetorMercadoMethodPathParams"
+[12/06/2025, 11:48:40]: Executing pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodQueryResponse' and type 'type'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-ts.1 | Resolving name 'SetoresControllerGetSetorMercadoMethodQueryResponse' and type 'type' |  "SetoresControllerGetSetorMercadoMethodQueryResponse"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'file'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name ' SetoresController_getSetorMercadoMethod ' and type 'file' |  "SetoresController_getSetorMercadoMethod"
+[12/06/2025, 11:48:40]: No hook 'resolvePath' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving path 'SetoresController_getSetorMercadoMethod.ts'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving path 'SetoresController_getSetorMercadoMethod.ts' |  "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\SetoresController_getSetorMercadoMethod.ts"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'SetoresControllerGetSetorMercadoMethodError' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'SetoresControllerGetSetorMercadoMethodError' and type 'function' |  "SetoresControllerGetSetorMercadoMethodError"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'SetoresControllerGetSetorMercadoMethodPathParams' and type 'function' |  "SetoresControllerGetSetorMercadoMethodPathParams"
+[12/06/2025, 11:48:40]: No hook 'resolveName' for pluginKey '["plugin-zod"]' found, falling back on the '@kubb/core' plugin
+[12/06/2025, 11:48:40]: Executing pluginKey core.2 | Resolving name 'SetoresControllerGetSetorMercadoMethodQueryResponse' and type 'function'
+[12/06/2025, 11:48:40]: Executed pluginKey core.2 | Resolving name 'SetoresControllerGetSetorMercadoMethodQueryResponse' and type 'function' |  "SetoresControllerGetSetorMercadoMethodQueryResponse"
+[12/06/2025, 11:48:40]: Start barrel generation for pluginKey plugin-client.1 and root 'C:\workspace\bufferFork\bufferManual\src\api\client'
+[12/06/2025, 11:48:40]: Executed pluginKey plugin-client.1 | buildStart |  undefined

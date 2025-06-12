@@ -6,7 +6,7 @@ import type {
 } from '../models/BufferControllerConsultBufferMethod.ts'
 
 export function getBufferControllerConsultBufferMethodUrl() {
-  return `http://192.168.99.129:9192/buffer` as const
+  return `http://mercadosapi.prod.ethos/buffer` as const
 }
 
 /**

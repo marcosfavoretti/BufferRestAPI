@@ -1,4 +1,4 @@
-[12/06/2025, 10:34:09]: {
+[12/06/2025, 11:48:40]: {
   "files": [
     {
       "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\index.ts",
@@ -421,7 +421,7 @@
           "name": "getBufferControllerSaveBufferLogUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getBufferControllerSaveBufferLogUrl() {\n  return `http://192.168.99.129:9192/buffer` as const\n}"
+          "value": "export function getBufferControllerSaveBufferLogUrl() {\n  return `http://mercadosapi.prod.ethos/buffer` as const\n}"
         },
         {
           "name": "bufferControllerSaveBufferLog",
@@ -521,7 +521,7 @@
           "name": "getItemQtdSemanaControllerListItensUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getItemQtdSemanaControllerListItensUrl() {\n  return `http://192.168.99.129:9192/item` as const\n}"
+          "value": "export function getItemQtdSemanaControllerListItensUrl() {\n  return `http://mercadosapi.prod.ethos/item` as const\n}"
         },
         {
           "name": "itemQtdSemanaControllerListItens",
@@ -629,7 +629,7 @@
           "name": "getSetoresControllerGetSetoresMethodUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getSetoresControllerGetSetoresMethodUrl() {\n  return `http://192.168.99.129:9192/setores` as const\n}"
+          "value": "export function getSetoresControllerGetSetoresMethodUrl() {\n  return `http://mercadosapi.prod.ethos/setores` as const\n}"
         },
         {
           "name": "setoresControllerGetSetoresMethod",
@@ -782,7 +782,7 @@
           "name": "getBufferControllerConsultBufferMethodUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getBufferControllerConsultBufferMethodUrl() {\n  return `http://192.168.99.129:9192/buffer` as const\n}"
+          "value": "export function getBufferControllerConsultBufferMethodUrl() {\n  return `http://mercadosapi.prod.ethos/buffer` as const\n}"
         },
         {
           "name": "bufferControllerConsultBufferMethod",
@@ -921,7 +921,7 @@
           "name": "getSetoresControllerGetSetorMercadoMethodUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getSetoresControllerGetSetorMercadoMethodUrl(setorId: SetoresControllerGetSetorMercadoMethodPathParams[\"setorId\"], dia: SetoresControllerGetSetorMercadoMethodPathParams[\"dia\"]) {\n  return `http://192.168.99.129:9192/setores/${setorId}/mercados/${dia}` as const\n}"
+          "value": "export function getSetoresControllerGetSetorMercadoMethodUrl(setorId: SetoresControllerGetSetorMercadoMethodPathParams[\"setorId\"], dia: SetoresControllerGetSetorMercadoMethodPathParams[\"dia\"]) {\n  return `http://mercadosapi.prod.ethos/setores/${setorId}/mercados/${dia}` as const\n}"
         },
         {
           "name": "setoresControllerGetSetorMercadoMethod",
@@ -1021,7 +1021,7 @@
           "name": "getExcelControllerCompactBuffer2ExcelMethodUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getExcelControllerCompactBuffer2ExcelMethodUrl() {\n  return `http://192.168.99.129:9192/excel` as const\n}"
+          "value": "export function getExcelControllerCompactBuffer2ExcelMethodUrl() {\n  return `http://mercadosapi.prod.ethos/excel` as const\n}"
         },
         {
           "name": "excelControllerCompactBuffer2ExcelMethod",

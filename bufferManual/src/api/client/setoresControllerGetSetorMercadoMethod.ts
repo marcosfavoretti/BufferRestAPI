@@ -9,7 +9,7 @@ export function getSetoresControllerGetSetorMercadoMethodUrl(
   setorId: SetoresControllerGetSetorMercadoMethodPathParams['setorId'],
   dia: SetoresControllerGetSetorMercadoMethodPathParams['dia'],
 ) {
-  return `http://192.168.99.129:9192/setores/${setorId}/mercados/${dia}` as const
+  return `http://mercadosapi.prod.ethos/setores/${setorId}/mercados/${dia}` as const
 }
 
 /**

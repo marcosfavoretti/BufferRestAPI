@@ -5,10 +5,9 @@ import { Observable } from 'rxjs';
 import { ResSetorDTO } from '../../../api';
 import { AsyncPipe } from '@angular/common';
 import { SetorStoreService } from '../../service/SetorStore.service';
-
 @Component({
   selector: 'app-setores-dir',
-  imports: [AsyncPipe],
+  imports: [AsyncPipe,],
   templateUrl: './setores-dir.component.html',
   styleUrl: './setores-dir.component.css'
 })

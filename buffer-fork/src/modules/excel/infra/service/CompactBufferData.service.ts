@@ -1,33 +1,37 @@
-import { CompactBuffer } from "../../@core/class/CompactBuffer";
 import { FalhaAoCompactarDadoException } from "../../@core/exception/FalhaAoCompactarDado.exception";
 import { InjectDataSource } from "@nestjs/typeorm";
 import { DataSource } from "typeorm";
+import { CompactBuffer } from "../../@core/class/CompactBuffer";
+import { Calendario } from "src/modules/shared/@core/Calendario";
 
 export class CompactBufferDataService {
+    private calendario = new Calendario()
     constructor(
         @InjectDataSource() private dt: DataSource,
     ) { }
 
-    async compact(): Promise<CompactBuffer[]> {
+    async compact(start: Date, end: Date): Promise<CompactBuffer[]> {
         try {
             return await this.dt.query(`
-                SELECT BH000.serverTime,
+                SELECT 
+                BH000.serverTime,
                 BH000.Item,
                 BH000.tipo_item,
-				TRE.Planilha,
-                BH110.[CORREDOR DE SOLDA], BH110.[LIXA], BH110.[GATE SOLDA], BH110.[MERCADO BANHO], BH110.[LINHA DE PINTURA], BH110.[PINTURA], BH000.[MONTAGEM], BH000.[LINHA DE MONTAGEM], BH000.[LIBERADA], BH000.[RETRABALHO S/ PORTA], BH000.[RETRABALHO MONTAGEM], BH000.[RETRABALHO SOLDA], BH000.[RETRABALHO PINTURA], BH000.[INSPEÇÃO], BH000.[BANHO]    
-				FROM vw_bufferhistorico BH000
-				LEFT JOIN vw_bufferhist110 BH110
-				on BH000.ItemFilho = BH110.Item
-				left join Temp_excel_Relation TRE
-				ON BH000.tipo_item = TRE.Apelido
-				WHERE BH000.Montagem IS NOT NULL
-				group by BH000.serverTime,
-                BH000.Item,
-                BH000.tipo_item,
-				TRE.Planilha,
-                BH110.[CORREDOR DE SOLDA], BH110.[LIXA], BH110.[GATE SOLDA], BH110.[MERCADO BANHO], BH110.[LINHA DE PINTURA], BH110.[PINTURA], BH000.[MONTAGEM], BH000.[LINHA DE MONTAGEM], BH000.[LIBERADA], BH000.[RETRABALHO S/ PORTA], BH000.[RETRABALHO MONTAGEM], BH000.[RETRABALHO SOLDA], BH000.[RETRABALHO PINTURA], BH000.[INSPEÇÃO], BH000.[BANHO]
-                `)
+                TRE.Planilha,
+                BH110.[CORREDOR DE SOLDA], BH110.[LIXA], BH110.[GATE SOLDA], BH110.[MERCADO BANHO],  BH110.[BANHO],
+                BH110.[LINHA DE PINTURA], BH110.[PINTURA], BH000.[MONTAGEM], BH000.[LINHA DE MONTAGEM],
+                BH000.[LIBERADA], BH000.[RETRABALHO S/ PORTA], BH000.[RETRABALHO MONTAGEM],
+                BH000.[RETRABALHO SOLDA], BH000.[RETRABALHO PINTURA], BH000.[INSPEÇÃO]
+                FROM vw_bufferhistorico BH000
+                LEFT JOIN vw_bufferhist110 BH110
+                ON BH000.ItemFilho = BH110.Item AND BH000.serverTime = BH110.serverTime
+                LEFT JOIN Temp_excel_Relation TRE
+                ON BH000.tipo_item = TRE.Apelido
+                WHERE BH000.Montagem IS NOT NULL
+                AND BH000.serverTime 
+                BETWEEN @0 and @1
+                ORDER BY BH000.serverTime, BH000.Item
+                `, [this.calendario.formatDate(start, 'yyyy-MM-dd HH:mm:ss'), this.calendario.formatDate(end, 'yyyy-MM-dd HH:mm:ss')])
         } catch (error) {
             throw new FalhaAoCompactarDadoException();
         }

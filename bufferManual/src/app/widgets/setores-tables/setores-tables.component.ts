@@ -28,6 +28,9 @@ export class SetoresTablesComponent implements OnInit {
   colunasAdicionais: string[] = [];
 
   updateRequire(event: any): void {
+    if (!event.row[event.column]) {
+      return;
+    }
     const update$ = this.apiService.saveLog({
       item: event.row.item,
       qtd: event.row[event.column],
@@ -91,7 +94,7 @@ export class SetoresTablesComponent implements OnInit {
 
   tableRefresh(): void {
     this.tableSchema = {
-      title: `Mercados do sertor de ${this.setorStore.currentSetor?.setor} no dia ${format(new Date(), 'dd/MM/yyyy')}`,
+      title: `${this.setorStore.currentSetor?.setor} no dia ${format(new Date(), 'dd/MM/yyyy')}`,
       totalize: false,
       columns: [
         {

@@ -8,6 +8,7 @@ import { tableColumns, TableModel } from './@core/table.model';
 import * as XLSX from 'xlsx';
 import * as FileSaver from 'file-saver';
 import { InputNumberModule } from 'primeng/inputnumber'
+import { LazyLoadEvent } from 'primeng/api';
 @Component({
   standalone: true,
   selector: 'app-table-dynamic',
@@ -27,7 +28,6 @@ export class TableDynamicComponent implements OnChanges {
   @Input() data: any[] = []; // O array de objetos a ser exibido na tabela
   @Input() tableModel!: TableModel
   @Output('OnChecked') onChecked: EventEmitter<{ row: any, column: any, checked: any, oldValue: any }> = new EventEmitter();
-  @Input() Externalfilter?: { value: string, filed: string, method: 'contains' }
   // Função auxiliar
 
   @ViewChild('dt2') dt2!: Table
@@ -35,11 +35,12 @@ export class TableDynamicComponent implements OnChanges {
   Object = Object;
 
 
+
   onNewCheckEvent(row: any, column: any, event: any): void {
     console.log(event)
     const oldValue = row[column];
     console.log(oldValue)
-    this.setNestedValue(row, column , event)
+    this.setNestedValue(row, column, event)
     this.onChecked.emit({
       row: row,
       column: column,

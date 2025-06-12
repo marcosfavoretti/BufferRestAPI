@@ -1,9 +1,19 @@
-[10/06/2025, 13:58:21]: {
+[12/06/2025, 10:34:09]: {
   "files": [
     {
       "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\index.ts",
       "baseName": "index.ts",
       "exports": [
+        {
+          "name": [
+            "BufferControllerConsultBufferMethodQueryParams",
+            "BufferControllerConsultBufferMethod200",
+            "BufferControllerConsultBufferMethodQueryResponse",
+            "BufferControllerConsultBufferMethodQuery"
+          ],
+          "path": "./models/BufferControllerConsultBufferMethod.ts",
+          "isTypeOnly": true
+        },
         {
           "name": [
             "BufferControllerSaveBufferLog201",
@@ -86,6 +96,13 @@
           ],
           "path": "./models/SetoresControllerGetSetorMercadoMethod.ts",
           "isTypeOnly": true
+        },
+        {
+          "name": [
+            "getBufferControllerConsultBufferMethodUrl",
+            "bufferControllerConsultBufferMethod"
+          ],
+          "path": "./client/bufferControllerConsultBufferMethod.ts"
         },
         {
           "name": [
@@ -404,7 +421,7 @@
           "name": "getBufferControllerSaveBufferLogUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getBufferControllerSaveBufferLogUrl() {\n  return `http://mercadosapi.prod.ethos/buffer` as const\n}"
+          "value": "export function getBufferControllerSaveBufferLogUrl() {\n  return `http://192.168.99.129:9192/buffer` as const\n}"
         },
         {
           "name": "bufferControllerSaveBufferLog",
@@ -504,7 +521,7 @@
           "name": "getItemQtdSemanaControllerListItensUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getItemQtdSemanaControllerListItensUrl() {\n  return `http://mercadosapi.prod.ethos/item` as const\n}"
+          "value": "export function getItemQtdSemanaControllerListItensUrl() {\n  return `http://192.168.99.129:9192/item` as const\n}"
         },
         {
           "name": "itemQtdSemanaControllerListItens",
@@ -612,7 +629,7 @@
           "name": "getSetoresControllerGetSetoresMethodUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getSetoresControllerGetSetoresMethodUrl() {\n  return `http://mercadosapi.prod.ethos/setores` as const\n}"
+          "value": "export function getSetoresControllerGetSetoresMethodUrl() {\n  return `http://192.168.99.129:9192/setores` as const\n}"
         },
         {
           "name": "setoresControllerGetSetoresMethod",
@@ -708,6 +725,113 @@
       "extname": ".ts"
     },
     {
+      "baseName": "BufferControllerConsultBufferMethod.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerConsultBufferMethod.ts",
+      "sources": [
+        {
+          "name": "BufferControllerConsultBufferMethodQueryParams",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type BufferControllerConsultBufferMethodQueryParams = {\n    /**\n     * @description Data inicial (obrigatória)\n     * @type string\n    */\n    startDate: string;\n    /**\n     * @description Data final (opcional)\n     * @type string | undefined\n    */\n    endDate?: string;\n};"
+        },
+        {
+          "name": "BufferControllerConsultBufferMethod200",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type BufferControllerConsultBufferMethod200 = any;"
+        },
+        {
+          "name": "BufferControllerConsultBufferMethodQueryResponse",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type BufferControllerConsultBufferMethodQueryResponse = BufferControllerConsultBufferMethod200;"
+        },
+        {
+          "name": "BufferControllerConsultBufferMethodQuery",
+          "isTypeOnly": true,
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export type BufferControllerConsultBufferMethodQuery = {\n    Response: BufferControllerConsultBufferMethod200;\n    QueryParams: BufferControllerConsultBufferMethodQueryParams;\n    Errors: any;\n};"
+        }
+      ],
+      "exports": [],
+      "imports": [],
+      "meta": {
+        "pluginKey": [
+          "plugin-ts",
+          1
+        ],
+        "name": "BufferControllerConsultBufferMethod",
+        "group": {
+          "tag": "Buffer",
+          "path": "/buffer"
+        }
+      },
+      "id": "91f6f8f08206a6c7a397de1afed3f6afa0f3dd6b",
+      "name": "BufferControllerConsultBufferMethod",
+      "extname": ".ts"
+    },
+    {
+      "baseName": "bufferControllerConsultBufferMethod.ts",
+      "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\bufferControllerConsultBufferMethod.ts",
+      "sources": [
+        {
+          "name": "getBufferControllerConsultBufferMethodUrl",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "export function getBufferControllerConsultBufferMethodUrl() {\n  return `http://192.168.99.129:9192/buffer` as const\n}"
+        },
+        {
+          "name": "bufferControllerConsultBufferMethod",
+          "isExportable": true,
+          "isIndexable": true,
+          "value": "/**\n * {@link /buffer}\n */\nexport async function bufferControllerConsultBufferMethod(params: BufferControllerConsultBufferMethodQueryParams, config: Partial<RequestConfig> & { client?: typeof client } = {}) {\n  const { client:request = client, ...requestConfig } = config\n\nconst res = await request<BufferControllerConsultBufferMethodQueryResponse, ResponseErrorConfig<Error>, unknown>({ method : \"GET\", url : getBufferControllerConsultBufferMethodUrl().toString(), params, ... requestConfig })\nreturn res.data\n}"
+        }
+      ],
+      "exports": [],
+      "imports": [
+        {
+          "name": "client",
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": false
+        },
+        {
+          "name": [
+            "RequestConfig",
+            "ResponseErrorConfig"
+          ],
+          "path": "@kubb/plugin-client/clients/axios",
+          "isTypeOnly": true
+        },
+        {
+          "name": [
+            "BufferControllerConsultBufferMethodQueryResponse",
+            "BufferControllerConsultBufferMethodQueryParams"
+          ],
+          "root": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\client\\bufferControllerConsultBufferMethod.ts",
+          "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\models\\BufferControllerConsultBufferMethod.ts",
+          "isTypeOnly": true
+        }
+      ],
+      "meta": {
+        "pluginKey": [
+          "plugin-client",
+          1
+        ],
+        "name": "bufferControllerConsultBufferMethod",
+        "group": {
+          "tag": "Buffer",
+          "path": "/buffer"
+        }
+      },
+      "id": "783684c160a2fa9d74f9a7fec44336beeefa5de8",
+      "name": "bufferControllerConsultBufferMethod",
+      "extname": ".ts"
+    },
+    {
       "path": "C:\\workspace\\bufferFork\\bufferManual\\src\\api\\schemas\\resMercadosIntermediarioDoSetorDTO.json",
       "baseName": "resMercadosIntermediarioDoSetorDTO.json",
       "meta": {
@@ -797,7 +921,7 @@
           "name": "getSetoresControllerGetSetorMercadoMethodUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getSetoresControllerGetSetorMercadoMethodUrl(setorId: SetoresControllerGetSetorMercadoMethodPathParams[\"setorId\"], dia: SetoresControllerGetSetorMercadoMethodPathParams[\"dia\"]) {\n  return `http://mercadosapi.prod.ethos/setores/${setorId}/mercados/${dia}` as const\n}"
+          "value": "export function getSetoresControllerGetSetorMercadoMethodUrl(setorId: SetoresControllerGetSetorMercadoMethodPathParams[\"setorId\"], dia: SetoresControllerGetSetorMercadoMethodPathParams[\"dia\"]) {\n  return `http://192.168.99.129:9192/setores/${setorId}/mercados/${dia}` as const\n}"
         },
         {
           "name": "setoresControllerGetSetorMercadoMethod",
@@ -897,7 +1021,7 @@
           "name": "getExcelControllerCompactBuffer2ExcelMethodUrl",
           "isExportable": true,
           "isIndexable": true,
-          "value": "export function getExcelControllerCompactBuffer2ExcelMethodUrl() {\n  return `http://mercadosapi.prod.ethos/excel` as const\n}"
+          "value": "export function getExcelControllerCompactBuffer2ExcelMethodUrl() {\n  return `http://192.168.99.129:9192/excel` as const\n}"
         },
         {
           "name": "excelControllerCompactBuffer2ExcelMethod",

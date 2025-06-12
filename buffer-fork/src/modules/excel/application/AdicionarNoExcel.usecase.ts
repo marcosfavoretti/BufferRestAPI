@@ -3,13 +3,12 @@ import { CompactBufferDataService } from "../infra/service/CompactBufferData.ser
 import { ExcelService } from "../infra/service/Excel.service";
 import { CompactBuffer } from "../@core/class/CompactBuffer";
 import { UTCDate } from "@date-fns/utc";
-import { startOfDay } from "date-fns";
+import { endOfDay, startOfDay } from "date-fns";
 
 export class AdicionarNoExcelUseCase {
     private readonly excelFile = process.env.EXCELFILE;
     private readonly logger: Logger = new Logger();
     private readonly sheetTarget = 'DADOS';
-    private readonly timeZone = 'America/Sao_Paulo';
 
     constructor(
         @Inject(CompactBufferDataService) private readonly compactBufferDataService: CompactBufferDataService,
@@ -20,7 +19,11 @@ export class AdicionarNoExcelUseCase {
 
     async run(): Promise<void> {
         try {
-            const _data = await this.compactBufferDataService.compact();
+            const today = new Date();
+            const _data = await this.compactBufferDataService.compact(
+                startOfDay(today),
+                endOfDay(today)
+            );
             const data = this.fixDataToTimezone(_data);
             const workBook = await this.excelService.openWorkBook(this.excelFile);
             await this.excelService.appendDataToEnd(workBook, data, this.sheetTarget);

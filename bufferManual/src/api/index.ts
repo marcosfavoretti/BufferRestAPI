@@ -1,4 +1,10 @@
 export type {
+  BufferControllerConsultBufferMethodQueryParams,
+  BufferControllerConsultBufferMethod200,
+  BufferControllerConsultBufferMethodQueryResponse,
+  BufferControllerConsultBufferMethodQuery,
+} from './models/BufferControllerConsultBufferMethod.ts'
+export type {
   BufferControllerSaveBufferLog201,
   BufferControllerSaveBufferLogMutationRequest,
   BufferControllerSaveBufferLogMutationResponse,
@@ -30,6 +36,7 @@ export type {
   SetoresControllerGetSetorMercadoMethodQueryResponse,
   SetoresControllerGetSetorMercadoMethodQuery,
 } from './models/SetoresControllerGetSetorMercadoMethod.ts'
+export { getBufferControllerConsultBufferMethodUrl, bufferControllerConsultBufferMethod } from './client/bufferControllerConsultBufferMethod'
 export { getBufferControllerSaveBufferLogUrl, bufferControllerSaveBufferLog } from './client/bufferControllerSaveBufferLog'
 export { getExcelControllerCompactBuffer2ExcelMethodUrl, excelControllerCompactBuffer2ExcelMethod } from './client/excelControllerCompactBuffer2ExcelMethod'
 export { getItemQtdSemanaControllerListItensUrl, itemQtdSemanaControllerListItens } from './client/itemQtdSemanaControllerListItens'

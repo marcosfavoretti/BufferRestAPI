@@ -1,7 +1,7 @@
 <div class="d-flex gap-2 p-3">
   <h2 class="text-success">{{tableModel.title}}</h2>
 </div>
-<p-table #dt2 [globalFilterFields]="getAllColumns()" [value]="data" groupRowsBy="atr_group" dataKey="atr_group"
+<p-table laz #dt2 [globalFilterFields]="getAllColumns()" [value]="data" groupRowsBy="atr_group" dataKey="atr_group"
   [paginator]="tableModel.paginator? true: false" [rows]="10" [columns]="tableModel.columns"
   [rowsPerPageOptions]="30 < (data ? data.length : 0) ? [10, 20, 30, data ? data.length : 0 ]: [10,20,30]"
   [rowGroupMode]="tableModel.totalize ? 'subheader' : undefined">
@@ -59,7 +59,9 @@
           </div>
           }
           @else {
-          <p-image [preview]="true" [src]="'http://192.168.99.102:9192/files/image?partcode='+getNestedValue(item, key.field)" width="100px" height="100px" alt="" />
+          <p-image [preview]="true"
+            [src]="'http://192.168.99.102:9192/files/image?partcode='+getNestedValue(item, key.field)" width="100px"
+            height="100px" alt="" />
           }
         </div> }
         @else {
@@ -85,7 +87,9 @@
           }
 
           @else {
-          <p-image [preview]="true" [src]="'http://192.168.99.102:9192/files/image?partcode='+getNestedValue(item, key.field)" width="100px" height="100px" alt="" />
+          <p-image [preview]="true"
+            [src]="'http://192.168.99.102:9192/files/image?partcode='+getNestedValue(item, key.field)" width="100px"
+            height="100px" alt="" />
           }
         </div>
         }

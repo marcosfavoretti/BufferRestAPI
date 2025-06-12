@@ -50,6 +50,10 @@ export class ContagemHistoricoTabelaComponent implements OnInit {
         field: 'LIXA',
       },
       {
+        alias: 'Banho',
+        field: 'BANHO',
+      },
+      {
         alias: 'Montagem',
         field: 'MONTAGEM',
       },
@@ -80,11 +84,7 @@ export class ContagemHistoricoTabelaComponent implements OnInit {
       {
         alias: 'Inspeção',
         field: 'INSPEÇÃO',
-      },
-      {
-        alias: 'Banho',
-        field: 'BANHO',
-      },
+      }
     ]
   }
 

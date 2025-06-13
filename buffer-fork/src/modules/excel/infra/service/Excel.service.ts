@@ -1,3 +1,4 @@
+import { format, startOfDay, startOfToday } from 'date-fns';
 import * as ExcelJS from 'exceljs';
 
 export class ExcelService {
@@ -25,6 +26,37 @@ export class ExcelService {
 
         return workbook;
     }
+
+    /**
+     * Remove todas as linhas de uma aba que possuem o mesmo valor em uma coluna de data,
+     * caso esse valor já exista antes de inserir novos dados.
+     * 
+     * @param workbook - O workbook ExcelJS.
+     * @param sheetName - Nome da aba.
+     * @param dateColumn - Nome da coluna de data (deve ser igual ao key do objeto).
+     * @param dateValue - Valor da data a ser verificada/removida (string ou Date).
+     */
+    removeRowsByDate(
+        workbook: ExcelJS.Workbook,
+        sheetName: string,
+        indexColumn: number,
+        dateValue: Date
+    ): void {
+        const sheet = workbook.getWorksheet(sheetName);
+        if (!sheet) return;
+        const rowsToRemove: number[] = [];
+        sheet.eachRow((row, rowNumber) => {
+            if (rowNumber !== 1) {
+                const cell = row.getCell(indexColumn).value as Date;
+                if (cell.getTime() === dateValue.getTime()) {
+                    rowsToRemove.push(rowNumber);
+                }
+            }
+        });
+        console.log(`Removendo ${rowsToRemove.length} linhas da aba ${sheetName}`);
+        rowsToRemove.reverse().forEach(rowNum => sheet.spliceRows(rowNum, 1));
+    }
+
 
     /**
      * Abre um arquivo Excel existente com estilos preservados.

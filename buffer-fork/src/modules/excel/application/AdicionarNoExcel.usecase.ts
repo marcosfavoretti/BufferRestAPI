@@ -26,10 +26,12 @@ export class AdicionarNoExcelUseCase {
             );
             const data = this.fixDataToTimezone(_data);
             const workBook = await this.excelService.openWorkBook(this.excelFile);
+            await this.excelService.removeRowsByDate(workBook, this.sheetTarget, 1, data[0].serverTime)
             await this.excelService.appendDataToEnd(workBook, data, this.sheetTarget);
             await this.excelService.saveToFile(workBook, this.excelFile);
             this.logger.debug(`Dados salvos em: ${this.excelFile}`);
         } catch (error) {
+            console.error(error)
             this.logger.error(error);
             throw new InternalServerErrorException(error.message);
         }

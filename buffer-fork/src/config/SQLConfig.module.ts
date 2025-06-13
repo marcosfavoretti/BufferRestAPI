@@ -8,7 +8,7 @@ config();
     imports: [
         TypeOrmModule.forRoot({
             type: 'mssql',
-            logging: ['error', 'warn', 'query'],
+            logging: ['error', 'warn'],
             database: process.env.MYSQLDATABASEDATABASE,
             port: +process.env.MYSQLPORT,
             username: process.env.MYSQLDATABASEUSER,

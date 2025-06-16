@@ -28,7 +28,7 @@ export class SetoresTablesComponent implements OnInit {
   colunasAdicionais: string[] = [];
 
   updateRequire(event: any): void {
-    if (!event.row[event.column]) {
+    if (event.row[event.column] == undefined) {
       return;
     }
     const update$ = this.apiService.saveLog({

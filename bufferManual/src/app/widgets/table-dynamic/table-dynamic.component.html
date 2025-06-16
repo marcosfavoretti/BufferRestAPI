@@ -100,7 +100,7 @@
         }
         @else if (key?.isInputText) {
         <p-inputnumber [ngModel]="getNestedValue(item, key.field)" [showButtons]="true" buttonLayout="vertical"
-          spinnerMode="vertical" inputId="vertical" [inputStyle]="{ width: '3rem' }" [min]="0"
+           inputId="vertical" [inputStyle]="{ width: '3rem' }" [min]="0"
           (ngModelChange)="onNewCheckEvent(item, key.field, $event)">
           <ng-template #incrementbuttonicon>
             <span class="pi pi-plus"></span>

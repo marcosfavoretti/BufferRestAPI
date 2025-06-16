@@ -35,7 +35,6 @@ export class TableDynamicComponent implements OnChanges {
   Object = Object;
 
 
-
   onNewCheckEvent(row: any, column: any, event: any): void {
     console.log(event)
     const oldValue = row[column];
@@ -48,6 +47,7 @@ export class TableDynamicComponent implements OnChanges {
       oldValue: oldValue
     })
   }
+
   public applyFilterGlobal($event: any, stringVal: any) {
     this.dt2!.filterGlobal(($event.target as HTMLInputElement).value.trim(), stringVal.trim());
   }

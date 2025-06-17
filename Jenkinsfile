@@ -60,7 +60,7 @@ services:
       - PORT=${PORT}
     restart: always
     volumes:
-      - /mnt/excel_regis:/app/dados_rede
+      - /mnt/excel_regis:/app/excel_regis
     
   frontend:
     image: bufferfront

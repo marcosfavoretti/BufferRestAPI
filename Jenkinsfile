@@ -60,7 +60,7 @@ services:
       - PORT=${PORT}
     restart: always
     volumes:
-      - /mnt/compartilhamento_rede:/app/excel_regis
+      - /mnt/excel_regis:/app/dados_rede
     
   frontend:
     image: bufferfront

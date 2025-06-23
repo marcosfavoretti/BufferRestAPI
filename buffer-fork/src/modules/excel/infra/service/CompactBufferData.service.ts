@@ -13,7 +13,7 @@ export class CompactBufferDataService {
     async compact(start: Date, end: Date): Promise<CompactBuffer[]> {
         try {
             return await this.dt.query(`
-                SELECT 
+                SELECT DISTINCT
                 BH000.serverTime,
                 BH000.Item,
                 BH000.tipo_item,
